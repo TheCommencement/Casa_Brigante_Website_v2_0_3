@@ -235,3 +235,11 @@ p{margin:0 0 1.25rem;max-width:44rem}
 .entry-line{position:relative}
 .entry-line:hover{text-shadow:0 0 16px rgba(201,162,75,.45)}
 .entry-line::after{content:"\25C6";position:absolute;left:50%;transform:translateX(-50%);bottom:-1.4rem;font-size:.42rem;color:var(--gold-deep)}
+
+/* ===== Round 5.1: FINAL header emblem + hero lift ===== */
+.header-inner{min-height:108px}
+.brand{gap:.9rem}
+.brand-emblem{height:78px;width:auto;flex:none}
+.brand-name{font-size:1.55rem}
+.hero-watermark{opacity:.28}
+@media (max-width:48rem){.brand-emblem{height:60px}.brand-name{font-size:1.25rem}.hero-watermark{opacity:.18}}

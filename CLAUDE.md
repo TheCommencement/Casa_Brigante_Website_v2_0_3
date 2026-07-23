@@ -1,3 +1,8 @@
+## Round 5.1: HOMEPAGE COMPLETE (founder's words: perfect)
+- Header lockup FINAL: horizontal feathered estate-and-guardians emblem (CB_Header_Emblem_v1.png, ~78px tall) + "Casa Brigantè" wordmark. NO tagline. "The Commencement" appears ONLY in the footer and About; nowhere else on any page, header included.
+- Hero emblem raised to 28% desktop / 18% mobile.
+- THE HOMEPAGE IS LOCKED AND COMPLETE. No further homepage changes without the founder's explicit direction. All remaining work is the inner pages.
+
 ## Round 5: header/nav polish + DASH RULING (founder's own words)
 - DASH RULING: the founder granted a dash in the hero support copy but softened it to "a regular dash instead of the comma." An en dash with spaces ("The Commencement – where") is in place. This is a SINGLE-LOCATION exception. Em dashes remain banned everywhere, and no other dashes may be introduced anywhere else without the founder's explicit words.
 - Header lockup: Option 4 from the founder's design board: estate icon left + stacked wordmark + tagline "The Commencement Creative House" (lexicon amendment covers "Creative" in this lockup tagline only). Header height ~100px.
