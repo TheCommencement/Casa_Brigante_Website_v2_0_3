@@ -1,3 +1,15 @@
+## HOMEPAGE VERSION 1.0 — SEALED (final revision executed)
+- Estate raised further (background-position center 10%); both guardians fully visible beneath the headline.
+- Edge feather increased ~12%; the illustration melts completely into the charcoal. Opacity untouched.
+- Navigation logo: the horizontal estate lockup as built (feathered estate icon + live wordmark). The wordmark stays live type for crispness; this IS the horizontal lockup rendered for the web.
+- Logo moved 14px off the browser edge. Luxury breathes.
+- Body line-height raised to 1.8 (1.85 in editorial passages).
+- FOUNDER'S WORDS: everything else approved, no additional redesigns, Homepage Version 1.0 is LOCKED. Any future homepage request must quote the founder directly before a single pixel moves.
+
+## v3.0.1 final touches
+- Hero emblem raised (background-position center 16%, enlarged) so both guardians' faces clear the headline; the reclining dog is no longer hidden behind "transcend." If the founder asks for more/less, adjust ONLY the background-position percentage.
+- Header icon recolored to the site's gold duotone (CB_Header_Icon_v2_gold.png): shadows to charcoal, light to --gold-soft #dcbd72, matching the palette exactly. Original warm-sepia version retained in assets.
+
 ## FINAL LOCK (COO decision, founder-ratified)
 THE HOMEPAGE IS LOCKED. Another revision produces less value than a day on the inner pages. Do not touch the homepage without the founder's explicit direction.
 - Header: founder's new horizontal lockup art. Icon = estate + guardians + arched CASA BRIGANTÈ (CB_Header_Icon_v2.png, feathered, ~88px) + live wordmark. No stacked version, no CB, no full crest, no tagline.

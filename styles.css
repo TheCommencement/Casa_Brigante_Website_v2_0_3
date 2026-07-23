@@ -256,3 +256,15 @@ p{margin:0 0 1.25rem;max-width:44rem}
 @media (max-width:48rem){.hero-center h1{font-size:clamp(2.5rem,10vw,3.6rem)}.hero{padding-top:3.5rem}.brand-emblem{height:64px}}
 .copyright a{color:var(--smoke);text-decoration:none}
 .copyright a:hover{color:var(--gold-soft)}
+
+/* ===== v3.0.1: dogs visible, icon in house gold ===== */
+.hero-watermark{background-position:center 16%;background-size:min(880px,94vw)}
+.hero{padding-top:6.5rem}
+@media (max-width:48rem){.hero-watermark{background-position:center 20%;background-size:min(560px,100vw)}}
+
+/* ===== HOMEPAGE VERSION 1.0 — FINAL ===== */
+.hero-watermark{background-position:center 10%}
+@media (max-width:48rem){.hero-watermark{background-position:center 14%}}
+.brand{margin-left:14px}
+body{line-height:1.8}
+.editorial-copy{line-height:1.85}
