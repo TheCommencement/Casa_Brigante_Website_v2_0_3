@@ -1,3 +1,12 @@
+## HERO: FINAL LOCK. DO NOT TOUCH AGAIN.
+Root cause, finally addressed: the artwork was ~11% TOO TALL for the hero. That is why the roof and the guardians could never both land correctly. SCALE FIRST, POSITION SECOND. Never again respond to a hero note by moving the image.
+- CB_Hero_Composition_v1.png rebuilt shorter (sky above the tower and flourish below the paws trimmed), aspect 977:604, then reduced ~9% in CSS.
+- Anchored to the typography, top -25px: roof behind the top of the headline, doorway mid-block, guardians behind the closing line, nothing above the headline or below the paragraph.
+- All four edges dissolved aggressively with a blurred alpha; no rectangular boundary exists.
+- Opacity unchanged. Guardians selectively lifted so their faces read; the rest of the illustration untouched.
+- Header mark enlarged to 140px and recolored to the true house palette (charcoal shadows, #c9a24b gold, ivory highlights).
+- THE HOMEPAGE IS FINISHED. Every remaining hour belongs to Books, Music, Audio Dramas, HAWS, Vault 12, and Plug & Play. Only an actual bug reopens this page.
+
 ## Header 1.1.2
 - Estate icon enlarged ~23% (96px to 118px). It reads as a publisher's mark now, not decoration. Wordmark size UNCHANGED.
 - Spacing between icon and wordmark widened to 1.5rem.

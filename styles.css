@@ -326,3 +326,18 @@ body{line-height:1.8}
 .header-inner{min-height:132px}
 @media (max-width:64rem){.brand-emblem{height:92px}.header-inner{min-height:110px}}
 @media (max-width:48rem){.brand-emblem{height:78px}.brand{gap:1rem}.header-inner{min-height:96px}}
+
+/* ===== HERO COMPOSITION: FINAL LOCK (scale first, then align to type) ===== */
+.hero-art{
+  width:min(600px,82vw);
+  aspect-ratio:977/604;
+  top:-25px;
+}
+@media (max-width:64rem){.hero-art{width:min(500px,84vw);top:-18px}}
+@media (max-width:48rem){.hero-art{width:min(380px,88vw);top:-12px;opacity:.26}}
+
+/* Header mark: publisher's device scale, house palette */
+.brand-emblem{height:140px}
+.header-inner{min-height:152px}
+@media (max-width:64rem){.brand-emblem{height:104px}.header-inner{min-height:120px}}
+@media (max-width:48rem){.brand-emblem{height:82px}.header-inner{min-height:100px}}
