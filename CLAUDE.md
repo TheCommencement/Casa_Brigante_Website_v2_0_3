@@ -1,3 +1,11 @@
+## Round 5: header/nav polish + DASH RULING (founder's own words)
+- DASH RULING: the founder granted a dash in the hero support copy but softened it to "a regular dash instead of the comma." An en dash with spaces ("The Commencement – where") is in place. This is a SINGLE-LOCATION exception. Em dashes remain banned everywhere, and no other dashes may be introduced anywhere else without the founder's explicit words.
+- Header lockup: Option 4 from the founder's design board: estate icon left + stacked wordmark + tagline "The Commencement Creative House" (lexicon amendment covers "Creative" in this lockup tagline only). Header height ~100px.
+- Navigation: ALL CAPS, .1em letter-spacing, weight 500, tiny gold diamond separators, gold underline-fade hover. This supersedes the sentence-case nav rule in the Editorial Style Guide for navigation only.
+- Hero ground is charcoal #0b0b0b; emblem at ~23% desktop, feathered, present but subordinate to type.
+- CTA: gold with subtle hover glow, thin gold line, small diamond ornament beneath.
+- Per the founder: homepage design is COMPLETE. The next work is building the pages behind it to the same standard.
+
 ## FINAL HOMEPAGE LOCK (Round 4, founder-ratified)
 - FOUR-LEVEL LOGO SYSTEM (permanent): 1) Signature Illustration (estate + real dogs): homepage hero watermark, packaging, collector editions. 2) Simplified Estate Icon (CB_Estate_Icon_v1.png): navigation header + favicon. 3) Wordmark: business, legal, stationery, footer. 4) CB Monogram: utility only (wax seal, embroidery, tiny spaces). The CB is no longer the hero.
 - Hero emblem uses the FEATHERED version (CB_Emblem_Feathered_v1.png): elliptical alpha dissolve, no visible rectangle, emerges from the charcoal like old ink. Opacity ~26% desktop / ~16% mobile.

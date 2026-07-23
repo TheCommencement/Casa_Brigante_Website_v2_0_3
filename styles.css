@@ -211,3 +211,27 @@ p{margin:0 0 1.25rem;max-width:44rem}
 .footer-social{display:flex;gap:1.1rem;flex-wrap:wrap;margin-top:.4rem}
 .footer-social a{color:var(--smoke);font-size:.8rem}
 .footer-social a:hover{color:var(--gold-soft)}
+
+/* ===== Round 5: the first 5% (header, nav, rhythm) ===== */
+.header-inner{min-height:100px}
+.brand{gap:1rem}
+.brand-mark{height:48px}
+.brand-stack{display:flex;flex-direction:column;line-height:1.2}
+.brand-name{font-size:1.45rem}
+.brand-tag{font-family:var(--sans);font-size:.52rem;font-weight:500;letter-spacing:.24em;text-transform:uppercase;color:var(--gold-soft);margin-top:.15rem}
+
+/* Navigation: all caps, letterspaced, gold diamond separators, refined hover */
+.desktop-nav{gap:0;align-items:center}
+.desktop-nav a{text-transform:uppercase;letter-spacing:.1em;font-size:.72rem;font-weight:500;padding:.2rem 0 .35rem;border-bottom:1px solid transparent;transition:color var(--fast),border-color var(--fast);margin-left:1.05rem}
+.desktop-nav a+a::before{content:"\25C6";color:var(--gold-deep);font-size:.4rem;vertical-align:2px;margin-right:1.05rem;display:inline-block}
+.desktop-nav a:hover{color:var(--gold-soft);border-bottom-color:var(--gold-deep)}
+.mobile-nav a{text-transform:uppercase;letter-spacing:.1em;font-size:.78rem}
+
+/* Hero: charcoal ground, emblem present but subordinate */
+.hero{background:#0b0b0b}
+.hero-watermark{opacity:.23}
+
+/* CTA: gold, subtle glow on hover, ornament beneath the line */
+.entry-line{position:relative}
+.entry-line:hover{text-shadow:0 0 16px rgba(201,162,75,.45)}
+.entry-line::after{content:"\25C6";position:absolute;left:50%;transform:translateX(-50%);bottom:-1.4rem;font-size:.42rem;color:var(--gold-deep)}
