@@ -32,6 +32,16 @@ The house metaphor is seasoning, not the meal: it appears ONLY in the footer lin
 - Motion: reveal-on-scroll only, respect prefers-reduced-motion, nothing bouncy.
 - Accessibility is non-negotiable: skip link, aria labels, focus-visible states, alt text on every image.
 
+## Phase 1 Direction Lock (founder-ratified, supersedes earlier decisions where noted)
+- Navigation locked: Home, Books, Music, Audio Dramas, HAWS, Chronicle, About, Correspondence. Shop is REMOVED as a concept; all merchandise lives under HAWS. Plug & Play Streaming is a standalone page linked from the footer only.
+- Homepage section order locked: Hero, Featured Release, Books, Music, Audio Dramas, HAWS, Chronicle, About, Newsletter, Footer.
+- Hero: pure black, no photography, CB crest watermark at ~4% opacity. Eyebrow line removed from hero.
+- Hero headline status: EXPLORATION, not final. Current: "Some work is made for the moment. Some is made forever." Founder is still refining; do not treat as locked.
+- No dedicated founder page; the founder is represented in About and through the books. founder.html redirects to about.html.
+- Renames: studio.html→audio-dramas.html, journal.html→chronicle.html (Chronicle is a WORKING TITLE), shop.html→haws.html. Old URLs are redirect stubs; keep them.
+- Background entities (The Commencement, Excelsa Cornua, Ascendant Soundworks, Nino & Russia Brown Creative Studio, La Finca Management, TFG Publications, TaxxFree Enterprises) are presented only in About as supporting structure.
+- SPELLING FLAG: founder's documents write "Ascendant Soundworks"; the logo artwork reads "ASCENDENT". Site text uses Ascendant per the founder's doc. Founder should rule and correct the artwork or the text.
+
 ## Discretion rule (important)
 The homepage names the work, never the corporate structure. Operating entity names (Excelsa Cornua, The Commencement Music, Ascendant Soundworks) appear only on subpages and legal text, not on the homepage. Unreleased work is never advertised as "forthcoming" or "coming soon"; it simply appears when it is ready. The phrase "work not yet announced" in the About section is the only permitted gesture at future projects.
 
