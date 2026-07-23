@@ -400,3 +400,17 @@ body{line-height:1.8}
   .hero-art-full{top:130px}
   .hero-center .lede{margin-top:175px}
 }
+
+/* ===== Hero 1.4: words across the estate, guardians clear beneath ===== */
+.hero-center h1{font-size:clamp(2.8rem,5.6vw,4.6rem)}
+.hero-art-full{top:45px}
+.hero-center .lede{margin-top:335px}
+@media (max-width:64rem){
+  .hero-art-full{top:70px}
+  .hero-center .lede{margin-top:265px}
+}
+@media (max-width:48rem){
+  .hero-center h1{font-size:clamp(2.1rem,8.5vw,3.1rem)}
+  .hero-art-full{top:105px}
+  .hero-center .lede{margin-top:160px}
+}

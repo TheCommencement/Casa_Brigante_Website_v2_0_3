@@ -1,3 +1,9 @@
+## Hero 1.4
+- Artwork raised 30px (top:45). Headline max trimmed to 4.6rem to buy that height while keeping the guardians' faces clear; the two trade against each other (see measured geometry below).
+- Result: the headline crosses the estate, house and balcony, and the guardians sit in clear space directly beneath it.
+- Dog highlight lift reduced from +28% to +12%: present, visible, no longer competing for attention. Founder's intent: "there, but not taking too much attention."
+- Header mark recolored to sit at the same brightness and contrast as the rest of the site (charcoal to #c9a24b to #dcbd72, no ivory blowout).
+
 ## Hero supporting copy FINAL (founder-set)
 "Casa Brigantè is where stories, sound, style, and entertainment come to life. Crafted with purpose. Created without compromise. Built to endure."
 Locked. Do not alter. Covered by the founder's standing hero-only lexicon exception.
