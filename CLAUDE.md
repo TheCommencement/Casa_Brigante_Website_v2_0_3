@@ -1,3 +1,14 @@
+## Homepage 1.0.2
+- Estate raised 45px (background-position center -45px) so the tower sits behind the first headline line and the guardians settle near the last.
+- Header estate icon 88px to 96px (+9%). Wordmark size unchanged; the icon now leads.
+- Navigation item spacing widened to 1.15rem each side of the diamonds.
+- Founder's standing note: the site runs three scales (huge, medium, tiny) and that rhythm is intentional. Do not fill empty space.
+
+## Homepage 1.0.1 (founder-authorized unseal: "can we unseal to do that please" re: dogs' faces)
+- Hero recomposed: emblem anchored center-top with both guardians' faces in clear space; headline set beneath them, overlapping only the estate steps and grounds. This is the permanent composition: faces above, philosophy below.
+- Tuning dial if the founder wants adjustment: .hero-center margin-top clamp (moves text) and .hero-watermark background-size (scales art). Touch nothing else.
+- RE-SEALED after this change.
+
 ## HOMEPAGE VERSION 1.0 — SEALED (final revision executed)
 - Estate raised further (background-position center 10%); both guardians fully visible beneath the headline.
 - Edge feather increased ~12%; the illustration melts completely into the charcoal. Opacity untouched.

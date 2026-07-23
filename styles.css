@@ -268,3 +268,23 @@ p{margin:0 0 1.25rem;max-width:44rem}
 .brand{margin-left:14px}
 body{line-height:1.8}
 .editorial-copy{line-height:1.85}
+
+/* ===== Homepage 1.0.1: the guardians take the high ground ===== */
+.hero{min-height:96vh;justify-content:flex-start;padding-top:2.2rem}
+.hero-watermark{background-position:center top;background-size:min(830px,92vw)}
+.hero-center{margin-top:clamp(330px,40vh,470px)}
+@media (max-width:48rem){
+  .hero-watermark{background-position:center top;background-size:min(580px,104vw)}
+  .hero-center{margin-top:clamp(230px,34vh,330px)}
+  .hero{min-height:92vh}
+}
+
+/* ===== Homepage 1.0.2: composition, icon confidence, nav breath ===== */
+.hero-watermark{background-position:center -45px}
+.brand-emblem{height:96px}
+.desktop-nav a{margin-left:1.15rem}
+.desktop-nav a+a::before{margin-right:1.15rem}
+@media (max-width:48rem){
+  .hero-watermark{background-position:center -20px}
+  .brand-emblem{height:70px}
+}
