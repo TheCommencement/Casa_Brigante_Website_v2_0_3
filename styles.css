@@ -162,7 +162,7 @@ p{margin:0 0 1.25rem;max-width:44rem}
 
 /* ===== Direction Lock round 1 ===== */
 .hero{position:relative;overflow:hidden}
-.hero-watermark{position:absolute;inset:0;background:url('assets/brand/CB_Watermark_v1.png') center 42%/min(520px,70vw) no-repeat;opacity:.045;pointer-events:none}
+.hero-watermark{position:absolute;inset:0;background:url('assets/brand/CB_Emblem_Watermark_v1.png') center 44%/min(760px,88vw) no-repeat;opacity:.13;pointer-events:none}
 .hero-center{position:relative}
 .desktop-nav{gap:1.25rem}
 .desktop-nav a{font-size:.82rem}

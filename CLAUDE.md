@@ -1,3 +1,20 @@
+## Identity system (founder-ratified, Round 2)
+Three levels: the Signature Emblem is the soul, the Wordmark is the voice, the CB Monogram is the signature.
+- Signature Emblem (estate + the founder's two REAL guardian dogs, engraved gold on black): hero watermark at ~13% opacity, About page, packaging, collector editions. It is art, not UI. NEVER in the navigation bar. NEVER redrawn as mascot or cartoon; preserve the dogs' real markings (cream dog's facial markings and nose; larger mastiff's proportions and expression) in all future artwork.
+- Wordmark: plain text "Casa Brigantè" in the header; gold wordmark image (CB_Wordmark_Gold_v2.png) in the footer.
+- CB Monogram: utility only (favicon, avatars, spines, embroidery). It is now the favicon.
+- CB_Logo_Stacked_v1.png (reads EST. MMXII, wrong year) is RETIRED from the site.
+- Emblem artwork still to be refined by founder: remove CB medallion and slogan from the source art, halve the flourishes; site currently uses a crop excluding wordmark/slogan.
+
+## Navigation lock (Round 2, supersedes Round 1)
+Books · Music · Audio Dramas · HAWS · Plug & Play · About · Inquiries. No Home item (wordmark returns home). Chronicle removed from nav; lives in footer and homepage section.
+
+## Hero copy (founder-set, Round 2)
+"Some creations are made for the moment. Ours transcend time." + founder-written support paragraph. Founder explicitly approved "creations," "creative house," "Crafted," and "entertainment experiences" as hero-only exceptions to the banned lexicon; the ban stands everywhere else. The em dash in the founder's draft was replaced with a comma; the no-em-dash rule is NOT waived.
+
+## Inquiries
+inquiries.html: General, Business, Rights & Licensing, Media, Support, all mailto thecommencement@icloud.com. Founder may swap in a branded address later.
+
 # CLAUDE.md · Casa Brigantè Website
 
 This file governs all work on this repository. Claude Code reads it automatically. Follow it without being asked.
@@ -40,7 +57,7 @@ The house metaphor is seasoning, not the meal: it appears ONLY in the footer lin
 - No dedicated founder page; the founder is represented in About and through the books. founder.html redirects to about.html.
 - Renames: studio.html→audio-dramas.html, journal.html→chronicle.html (Chronicle is a WORKING TITLE), shop.html→haws.html. Old URLs are redirect stubs; keep them.
 - Background entities (The Commencement, Excelsa Cornua, Ascendant Soundworks, Nino & Russia Brown Creative Studio, La Finca Management, TFG Publications, TaxxFree Enterprises) are presented only in About as supporting structure.
-- SPELLING FLAG: founder's documents write "Ascendant Soundworks"; the logo artwork reads "ASCENDENT". Site text uses Ascendant per the founder's doc. Founder should rule and correct the artwork or the text.
+- SPELLING FLAG: founder's documents write "Ascendant Soundworks"; the logo artwork reads "ASCENDENT". Founder RULED: Ascendant with an A, everywhere. The full ASW logo image (which reads ASCENDENT) is benched; audio-dramas.html uses the text-free symbol crop (ASW_Symbol_v1.png) with correctly spelled live type until the founder regenerates the artwork.
 
 ## Discretion rule (important)
 The homepage names the work, never the corporate structure. Operating entity names (Excelsa Cornua, The Commencement Music, Ascendant Soundworks) appear only on subpages and legal text, not on the homepage. Unreleased work is never advertised as "forthcoming" or "coming soon"; it simply appears when it is ready. The phrase "work not yet announced" in the About section is the only permitted gesture at future projects.
