@@ -1,3 +1,11 @@
+## Round 3 homepage lock (founder-ratified)
+- Header: CB monogram (v2, gold) + text wordmark lockup, links home, never cropped, never the full emblem.
+- Hero emblem watermark: ~21% opacity desktop, ~13% mobile, larger on wide screens, precisely centered behind hero copy. Never near 60%.
+- Emblem system: full emblem ONLY on homepage hero and About; architectural fragment motif (CB_Emblem_Fragment_v1.png) on About/Inquiries page heroes and as a faint footer watermark. Consistency without repetition; the full estate image stays special.
+- Hero CTA: "Explore the Books" (founder-chosen). Featured link: "Explore the Book". NOTE: "Explore" was previously in the avoid-list; founder direction overrides for CTAs. "Discover" remains banned; founder's own doc offered it but his locked recommendation was Explore.
+- Featured section (Bury Me in Tucson) enlarged as the first major content after the hero: cover, title, author, description, link. Purchase link added when the title publishes.
+- Hero copy and navigation are LOCKED as of this round. Do not alter without founder approval.
+
 ## Identity system (founder-ratified, Round 2)
 Three levels: the Signature Emblem is the soul, the Wordmark is the voice, the CB Monogram is the signature.
 - Signature Emblem (estate + the founder's two REAL guardian dogs, engraved gold on black): hero watermark at ~13% opacity, About page, packaging, collector editions. It is art, not UI. NEVER in the navigation bar. NEVER redrawn as mascot or cartoon; preserve the dogs' real markings (cream dog's facial markings and nose; larger mastiff's proportions and expression) in all future artwork.
