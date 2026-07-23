@@ -1,3 +1,14 @@
+## Hero supporting copy FINAL (founder-set)
+"Casa Brigantè is where stories, sound, style, and entertainment come to life. Crafted with purpose. Created without compromise. Built to endure."
+Locked. Do not alter. Covered by the founder's standing hero-only lexicon exception.
+
+## Hero 1.3: the geometry, measured (read before ANY hero request)
+Measured positions inside CB_Hero_Full_v2.png (1320x755):
+  balcony 37-40% · mastiff face 38-50% · cream dog face 53-64% · dog bodies end 83% · art ends 100%
+CONSEQUENCE: the guardians' faces begin at 38% of the artwork height. The headline bottom must always finish ABOVE that line. Therefore the art cannot be raised without reducing headline height, and the headline cannot be enlarged without lowering the art. They trade against each other. Any future request to "raise the image" must be answered by checking this math first.
+- This revision: headline max size reduced 6.4rem to 5.2rem, artwork raised 35px to top:75px. Faces clear the type with ~13px of margin; paragraph still begins below the artwork.
+- Founder's rule, absolute: THE DOGS' FACES ARE NEVER COVERED. Words may sit above or below them, never across them.
+
 ## HOMEPAGE v1.0 — SIGNED OFF
 Final adjustment made: hero illustration raised 30px so the word "transcend" sits across the estate's second-floor balcony, both guardians fully visible beneath the headline. Scale, crop, opacity, dogs, logo, and feathering all UNCHANGED and now final.
 NOTHING ON THE HOMEPAGE MOVES AGAIN. No repositioning, no opacity, no logo tweaks, no feathering, no dog adjustments. Only a genuine bug reopens this page, and any request to change it must quote the founder directly.

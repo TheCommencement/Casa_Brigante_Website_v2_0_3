@@ -386,3 +386,17 @@ body{line-height:1.8}
 .hero-art-full{top:110px}
 @media (max-width:64rem){.hero-art-full{top:104px}}
 @media (max-width:48rem){.hero-art-full{top:98px}}
+
+/* ===== Hero 1.3: artwork raised, faces protected by trimming headline height ===== */
+.hero-center h1{font-size:clamp(3rem,6.2vw,5.2rem)}
+.hero-art-full{top:75px}
+.hero-center .lede{margin-top:325px}
+@media (max-width:64rem){
+  .hero-art-full{top:95px}
+  .hero-center .lede{margin-top:260px}
+}
+@media (max-width:48rem){
+  .hero-center h1{font-size:clamp(2.2rem,9vw,3.2rem)}
+  .hero-art-full{top:130px}
+  .hero-center .lede{margin-top:175px}
+}
