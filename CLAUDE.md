@@ -1,3 +1,10 @@
+## Homepage 1.0.3 (final art direction)
+- Estate raised a further 80px (background-position center -125px). Text position UNCHANGED; the founder was explicit: raise the estate, never lower the text.
+- Emblem enlarged 5% (872px) now that it sits higher and is no longer cropped by the hero box.
+- Composition order, per the founder's diagram: House, then Dogs, then Headline, then Paragraph, then Button.
+- Standing principle: the illustration supports the typography. It is atmosphere, not the focal point. The dogs must never compete with the headline.
+- The ONLY dial for further tuning: .hero-watermark background-position Y value. Never move .hero-center.
+
 ## Homepage 1.0.2
 - Estate raised 45px (background-position center -45px) so the tower sits behind the first headline line and the guardians settle near the last.
 - Header estate icon 88px to 96px (+9%). Wordmark size unchanged; the icon now leads.

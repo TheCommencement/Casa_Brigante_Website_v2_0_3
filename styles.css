@@ -288,3 +288,9 @@ body{line-height:1.8}
   .hero-watermark{background-position:center -20px}
   .brand-emblem{height:70px}
 }
+
+/* ===== Homepage 1.0.3: estate up, breathing, text untouched ===== */
+.hero-watermark{background-position:center -125px;background-size:min(872px,96vw)}
+@media (max-width:48rem){
+  .hero-watermark{background-position:center -60px;background-size:min(610px,108vw)}
+}
