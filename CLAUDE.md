@@ -1,3 +1,15 @@
+## Header 1.1.2
+- Estate icon enlarged ~23% (96px to 118px). It reads as a publisher's mark now, not decoration. Wordmark size UNCHANGED.
+- Spacing between icon and wordmark widened to 1.5rem.
+- Whole logo group nudged up 3px (optical alignment; mathematically centered read as low to the eye).
+- Header height grown to hold the larger mark without crowding.
+
+## Hero composition 1.1.1 (no further composition changes)
+- Illustration raised 25px, scaled down 5%.
+- Side feathering deepened significantly (separable falloff, horizontal solid zone only 30% of half-width, plus an 18px gaussian on the alpha). Smoke, not rectangle.
+- The GUARDIANS ONLY brightened a further 30% through a soft elliptical mask so their eyes and faces read; the rest of the illustration untouched.
+- FOUNDER'S INSIGHT, now standing doctrine: the house creates the setting, the typography creates the philosophy, THE DOGS CREATE THE EMOTION. The dogs are the hero of the hero. Never let them wash out, never let them disappear, never redraw them as anything but the founder's real guardians.
+
 ## HERO COMPOSITION LOCK (the breakthrough)
 The illustration is a LOGO being used as a BACKGROUND COMPOSITION. Those are two different jobs. Never drop the original logo in as a watermark again.
 - Asset: CB_Hero_Composition_v1.png. Purpose-built hero crop (tighter framing, less empty border), brightened ~55% so the guardians' faces read, edges feathered to nothing. Brightness was raised INSTEAD of opacity.

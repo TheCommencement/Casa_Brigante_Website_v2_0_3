@@ -314,3 +314,15 @@ body{line-height:1.8}
 .hero-center > *:not(.hero-art){position:relative;z-index:1}
 @media (max-width:64rem){.hero-art{width:min(560px,88vw);top:-30px}}
 @media (max-width:48rem){.hero-art{width:min(420px,92vw);top:-18px;opacity:.24}}
+
+/* ===== Hero composition 1.1.1: final nudge ===== */
+.hero-art{top:-67px;width:min(655px,84vw)}
+@media (max-width:64rem){.hero-art{width:min(532px,86vw);top:-48px}}
+@media (max-width:48rem){.hero-art{width:min(400px,90vw);top:-32px}}
+
+/* ===== Header 1.1.2: publisher's mark scale + optical alignment ===== */
+.brand-emblem{height:118px}
+.brand{gap:1.5rem;transform:translateY(-3px)}
+.header-inner{min-height:132px}
+@media (max-width:64rem){.brand-emblem{height:92px}.header-inner{min-height:110px}}
+@media (max-width:48rem){.brand-emblem{height:78px}.brand{gap:1rem}.header-inner{min-height:96px}}
