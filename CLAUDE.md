@@ -1,3 +1,15 @@
+## FINAL HOMEPAGE LOCK (Round 4, founder-ratified)
+- FOUR-LEVEL LOGO SYSTEM (permanent): 1) Signature Illustration (estate + real dogs): homepage hero watermark, packaging, collector editions. 2) Simplified Estate Icon (CB_Estate_Icon_v1.png): navigation header + favicon. 3) Wordmark: business, legal, stationery, footer. 4) CB Monogram: utility only (wax seal, embroidery, tiny spaces). The CB is no longer the hero.
+- Hero emblem uses the FEATHERED version (CB_Emblem_Feathered_v1.png): elliptical alpha dissolve, no visible rectangle, emerges from the charcoal like old ink. Opacity ~26% desktop / ~16% mobile.
+- Hero CTA: "Enter Casa Brigantè" → scrolls to #featured (the Featured section is the first destination, per founder).
+- Featured link: "Discover the Book". FORMAL LEXICON AMENDMENT: founder has approved "Explore," "Discover," "creations," "creative house," "Crafted," and "entertainment experiences" for hero/CTA use. The wider banned list still governs body copy sitewide.
+- Hero headline, supporting copy, and navigation are LOCKED. Do not touch without founder approval.
+- EM DASH STATUS: the advising document requested an em dash in the hero support copy ("The Commencement—where"). The absolute no-em-dash law predates and outranks an advisory doc; a comma is in place. Only the founder's own explicit words ("allow the em dash") may change this. If granted, it is a single-sentence exception, not a repeal.
+- Footer: richer, includes social row (Instagram, YouTube, Facebook, TikTok, Spotify) currently href="#" data-pending="social"; NEEDS real URLs from founder before they are meaningful.
+- Motion rule: everything fades; nothing bounces; nothing slides dramatically. Reveal translate reduced to 8px.
+- FINAL CREATIVE RULE (add to every design decision): "If a design decision makes Casa Brigantè feel more like a modern startup, remove it. If it makes it feel more like a respected institution that has quietly existed for generations, keep it."
+- THE BRIEF-TOPPING LINE: "We are no longer designing a homepage. We are designing the front entrance to Casa Brigantè. Every visual decision should reinforce the feeling that the visitor has arrived somewhere worth exploring, and worth returning to."
+
 ## Round 3 homepage lock (founder-ratified)
 - Header: CB monogram (v2, gold) + text wordmark lockup, links home, never cropped, never the full emblem.
 - Hero emblem watermark: ~21% opacity desktop, ~13% mobile, larger on wide screens, precisely centered behind hero copy. Never near 60%.

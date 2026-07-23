@@ -191,3 +191,23 @@ p{margin:0 0 1.25rem;max-width:44rem}
 .with-motif .container{position:relative}
 .site-footer{position:relative;overflow:hidden}
 .site-footer::after{content:"";position:absolute;right:-40px;bottom:-30px;width:340px;height:230px;background:url('assets/brand/CB_Emblem_Fragment_v1.png') center/contain no-repeat;opacity:.06;pointer-events:none}
+
+/* ===== Round 4: FINAL HOMEPAGE LOCK ===== */
+/* Header: taller, estate-icon lockup, weightier nav */
+.header-inner{min-height:90px}
+.brand-mark{height:40px}
+.desktop-nav a,.mobile-nav a{font-weight:500}
+
+/* Emblem: feathered, embedded, emerges from the charcoal like old ink */
+.hero-watermark{background:url('assets/brand/CB_Emblem_Feathered_v1.png') center 40%/min(820px,92vw) no-repeat;opacity:.26}
+@media (max-width:48rem){.hero-watermark{opacity:.16;background-size:min(540px,98vw)}}
+@media (min-width:100rem){.hero-watermark{background-size:min(950px,60vw)}.hero-center{max-width:74rem}}
+@media (min-width:150rem){.hero-center{max-width:82rem}.hero-watermark{background-size:1050px}}
+
+/* Motion: pure fade, nothing slides dramatically */
+.reveal{transform:translateY(8px)}
+
+/* Footer: richer, with social row */
+.footer-social{display:flex;gap:1.1rem;flex-wrap:wrap;margin-top:.4rem}
+.footer-social a{color:var(--smoke);font-size:.8rem}
+.footer-social a:hover{color:var(--gold-soft)}
