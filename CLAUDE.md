@@ -1,3 +1,15 @@
+## FINAL LOCK (COO decision, founder-ratified)
+THE HOMEPAGE IS LOCKED. Another revision produces less value than a day on the inner pages. Do not touch the homepage without the founder's explicit direction.
+- Header: founder's new horizontal lockup art. Icon = estate + guardians + arched CASA BRIGANTÈ (CB_Header_Icon_v2.png, feathered, ~88px) + live wordmark. No stacked version, no CB, no full crest, no tagline.
+- Hero copy FINAL: "Casa Brigantè is where fiction, music, audio dramas, apparel, and original entertainment experiences are developed with intention. Crafted with purpose. Told without compromise. Built to endure." The Commencement removed from the hero (footer + About only). The dash exception is MOOT; that sentence no longer exists. Zero dashes sitewide again.
+- Emblem: opacity unchanged, edge dissolve strengthened; no visible rectangle ever.
+- Nav hover: gold underline, instant, elegant; no animation beyond a color ease.
+- NAV AMENDMENT: VAULT 12 added after HAWS (Jordan customs, New Era fitteds, numbered pieces; vault-12.html; counter link). Nav otherwise locked.
+- Every page opens the same way: title, one sentence, generous space, then content. This is the sitewide page-opening pattern.
+- Footer: rich, with Privacy and Terms links. privacy.html and terms.html are plain-English placeholders written honestly to current site behavior; FLAG: attorney review before any commerce runs on-site.
+- Books/Music use real covers and real artist branding, never placeholders.
+- Standing creative rule: restraint, confidence, permanence, editorial sophistication over decoration. When in doubt, remove instead of add.
+
 ## Round 5.1: HOMEPAGE COMPLETE (founder's words: perfect)
 - Header lockup FINAL: horizontal feathered estate-and-guardians emblem (CB_Header_Emblem_v1.png, ~78px tall) + "Casa Brigantè" wordmark. NO tagline. "The Commencement" appears ONLY in the footer and About; nowhere else on any page, header included.
 - Hero emblem raised to 28% desktop / 18% mobile.

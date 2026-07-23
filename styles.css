@@ -243,3 +243,16 @@ p{margin:0 0 1.25rem;max-width:44rem}
 .brand-name{font-size:1.55rem}
 .hero-watermark{opacity:.28}
 @media (max-width:48rem){.brand-emblem{height:60px}.brand-name{font-size:1.25rem}.hero-watermark{opacity:.18}}
+
+/* ===== FINAL LOCK ===== */
+.header-inner{min-height:116px}
+.brand-emblem{height:88px}
+.desktop-nav a{transition:color var(--fast);margin-left:.9rem}
+.desktop-nav a+a::before{margin-right:.9rem}
+.desktop-nav a:hover{border-bottom-color:var(--gold)}
+.hero{padding-bottom:1.5rem}
+.featured-major{padding-top:2.5rem}
+@media (min-width:120rem){.hero-center{max-width:78rem}}
+@media (max-width:48rem){.hero-center h1{font-size:clamp(2.5rem,10vw,3.6rem)}.hero{padding-top:3.5rem}.brand-emblem{height:64px}}
+.copyright a{color:var(--smoke);text-decoration:none}
+.copyright a:hover{color:var(--gold-soft)}
