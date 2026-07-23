@@ -1,3 +1,8 @@
+## HOMEPAGE v1.0 — SIGNED OFF
+Final adjustment made: hero illustration raised 30px so the word "transcend" sits across the estate's second-floor balcony, both guardians fully visible beneath the headline. Scale, crop, opacity, dogs, logo, and feathering all UNCHANGED and now final.
+NOTHING ON THE HOMEPAGE MOVES AGAIN. No repositioning, no opacity, no logo tweaks, no feathering, no dog adjustments. Only a genuine bug reopens this page, and any request to change it must quote the founder directly.
+Remaining work, in priority order: Books, Music, Audio Dramas, HAWS, Vault 12, Plug & Play.
+
 ## Hero 1.2.1 (final spacing rule)
 - Artwork raised 20px so the guardians sit directly beneath "Ours transcend time."
 - STANDING RULE: the estate illustration must END before the supporting copy BEGINS. The artwork supports the headline only. It may never touch or sit behind the paragraph or the CTA. Paragraph margin-top is set per breakpoint to guarantee this clearance.

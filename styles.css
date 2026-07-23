@@ -381,3 +381,8 @@ body{line-height:1.8}
   .hero-art-full{top:120px}
   .hero-center .lede{margin-top:150px}
 }
+
+/* ===== Hero 1.2.2: balcony meets "transcend" ===== */
+.hero-art-full{top:110px}
+@media (max-width:64rem){.hero-art-full{top:104px}}
+@media (max-width:48rem){.hero-art-full{top:98px}}
