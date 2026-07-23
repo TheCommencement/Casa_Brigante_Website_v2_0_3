@@ -294,3 +294,23 @@ body{line-height:1.8}
 @media (max-width:48rem){
   .hero-watermark{background-position:center -60px;background-size:min(610px,108vw)}
 }
+
+/* ===== HERO COMPOSITION LOCK: art anchored to typography ===== */
+.hero-watermark{display:none}
+.hero{min-height:88vh;justify-content:center;padding:5rem 0 3rem}
+.hero-center{margin-top:0;position:relative}
+.hero-art{
+  position:absolute;
+  left:50%;
+  top:-42px;                     /* roof peak lands behind line one */
+  transform:translateX(-50%);
+  width:min(690px,86vw);         /* ~10% smaller: the illustration supports, never competes */
+  aspect-ratio:977/679;
+  background:url('assets/brand/CB_Hero_Composition_v1.png') center/contain no-repeat;
+  opacity:.30;
+  pointer-events:none;
+  z-index:0;
+}
+.hero-center > *:not(.hero-art){position:relative;z-index:1}
+@media (max-width:64rem){.hero-art{width:min(560px,88vw);top:-30px}}
+@media (max-width:48rem){.hero-art{width:min(420px,92vw);top:-18px;opacity:.24}}

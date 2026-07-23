@@ -1,3 +1,11 @@
+## HERO COMPOSITION LOCK (the breakthrough)
+The illustration is a LOGO being used as a BACKGROUND COMPOSITION. Those are two different jobs. Never drop the original logo in as a watermark again.
+- Asset: CB_Hero_Composition_v1.png. Purpose-built hero crop (tighter framing, less empty border), brightened ~55% so the guardians' faces read, edges feathered to nothing. Brightness was raised INSTEAD of opacity.
+- The art is anchored to the TYPOGRAPHY (.hero-art lives inside .hero-center), not to the browser window. It moves with the text at every screen size. Do not re-anchor it to the section.
+- Scaled ~10% smaller than the old watermark. The typography is the focal point; the illustration is atmosphere.
+- Intended composition: roof peak behind "creations", doorway behind "for the moment", guardians' heads behind "Ours transcend time", staircase terminating near the bottom of the paragraph.
+- The ONLY two dials: .hero-art top (vertical alignment to the type) and width (scale). Text never moves.
+
 ## Homepage 1.0.3 (final art direction)
 - Estate raised a further 80px (background-position center -125px). Text position UNCHANGED; the founder was explicit: raise the estate, never lower the text.
 - Emblem enlarged 5% (872px) now that it sits higher and is no longer cropped by the hero box.
