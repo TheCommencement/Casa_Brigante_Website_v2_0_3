@@ -369,3 +369,15 @@ body{line-height:1.8}
   .hero-art-full{top:140px;width:min(400px,96vw);opacity:.30}
   .hero-center .lede{margin-top:110px}
 }
+
+/* ===== Hero 1.2.1: guardians up, copy fully clear of the artwork ===== */
+.hero-art-full{top:140px}
+.hero-center .lede{margin-top:325px}
+@media (max-width:64rem){
+  .hero-art-full{top:130px}
+  .hero-center .lede{margin-top:250px}
+}
+@media (max-width:48rem){
+  .hero-art-full{top:120px}
+  .hero-center .lede{margin-top:150px}
+}

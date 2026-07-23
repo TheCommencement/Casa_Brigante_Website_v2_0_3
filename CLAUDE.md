@@ -1,3 +1,8 @@
+## Hero 1.2.1 (final spacing rule)
+- Artwork raised 20px so the guardians sit directly beneath "Ours transcend time."
+- STANDING RULE: the estate illustration must END before the supporting copy BEGINS. The artwork supports the headline only. It may never touch or sit behind the paragraph or the CTA. Paragraph margin-top is set per breakpoint to guarantee this clearance.
+- LOGO IS FINISHED. The top-left lockup is correct and is not to be changed again.
+
 ## HERO: THREE-ZONE COMPOSITION (acceptance-tested, do not redesign)
 Structural rule that ends all hero drift: the hero is THREE VERTICAL ZONES, not text layered over art.
   Zone 1 Headline (clear of all artwork except faint roof/upper estate)
