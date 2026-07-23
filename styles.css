@@ -341,3 +341,31 @@ body{line-height:1.8}
 .header-inner{min-height:152px}
 @media (max-width:64rem){.brand-emblem{height:104px}.header-inner{min-height:120px}}
 @media (max-width:48rem){.brand-emblem{height:82px}.header-inner{min-height:100px}}
+
+/* ===== HERO: THREE ZONES. Headline / Guardians / Copy. Full uncropped art. ===== */
+.hero{min-height:auto;padding:4.5rem 0 5.5rem;justify-content:flex-start}
+.hero-center{margin-top:0}
+
+.hero-art-full{
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
+  top:160px;                          /* zone 2 begins below the headline */
+  width:min(909px,94vw);
+  aspect-ratio:1320/755;              /* original proportions preserved */
+  background:url('assets/brand/CB_Hero_Full_v2.png') center/contain no-repeat;
+  opacity:.34;
+  pointer-events:none;
+  z-index:0;
+}
+/* zone 3: copy clears the guardians entirely */
+.hero-center .lede{margin-top:276px}
+
+@media (max-width:64rem){
+  .hero-art-full{top:150px;width:min(700px,94vw)}
+  .hero-center .lede{margin-top:205px}
+}
+@media (max-width:48rem){
+  .hero-art-full{top:140px;width:min(400px,96vw);opacity:.30}
+  .hero-center .lede{margin-top:110px}
+}

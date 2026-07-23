@@ -1,3 +1,14 @@
+## HERO: THREE-ZONE COMPOSITION (acceptance-tested, do not redesign)
+Structural rule that ends all hero drift: the hero is THREE VERTICAL ZONES, not text layered over art.
+  Zone 1 Headline (clear of all artwork except faint roof/upper estate)
+  Zone 2 Guardians (protected clear area; NO typography may enter it)
+  Zone 3 Supporting paragraph + CTA (below the dogs, no overlap)
+- Asset: CB_Hero_Full_v2.png. The COMPLETE estate illustration, uncropped on all four sides, original 1320:755 aspect, background-size contain. Never crop it again.
+- Only the outer border band is feathered; the interior, including both guardians, is never masked, faded, or darkened.
+- Placement is achieved by (a) .hero-art-full top offset and (b) .lede margin-top, which pushes the copy below the dogs. Both are set per breakpoint.
+- ACCEPTANCE TEST for any future change: if a letter touches either dog's face, it FAILS. If any part of the estate is cut off, it FAILS.
+- Header, navigation, logo, headline, paragraph, and CTA were NOT touched in this revision.
+
 ## HERO: FINAL LOCK. DO NOT TOUCH AGAIN.
 Root cause, finally addressed: the artwork was ~11% TOO TALL for the hero. That is why the roof and the guardians could never both land correctly. SCALE FIRST, POSITION SECOND. Never again respond to a hero note by moving the image.
 - CB_Hero_Composition_v1.png rebuilt shorter (sky above the tower and flourish below the paws trimmed), aspect 977:604, then reduced ~9% in CSS.
