@@ -540,3 +540,10 @@ body::before{
 .chapter-text p:first-child::first-letter{font-family:var(--serif-display);font-size:3.6rem;float:left;line-height:.8;padding:.4rem .6rem .2rem 0;color:var(--gold-soft)}
 .chapter-note{font-style:italic;color:var(--smoke);font-size:.92rem;margin-top:1.5rem;text-align:center}
 @media (max-width:48rem){.pull-quotes{grid-template-columns:1fr;gap:1.8rem}.pull-q{font-size:1.3rem}}
+
+/* ===== Preview refinements ===== */
+.chapter-eyebrow{font-family:var(--sans);text-transform:uppercase;letter-spacing:.2em;font-size:.66rem;color:var(--gold);margin-bottom:.4rem}
+.chapter-label{font-family:var(--serif-display);font-style:italic;font-size:1.2rem;color:var(--ivory-dim);margin-bottom:1.8rem}
+.excerpt-cta{margin-top:2.8rem;padding-top:2.2rem;border-top:1px solid var(--border);text-align:center}
+.excerpt-cta-line{font-family:var(--serif-display);font-style:italic;font-size:1.4rem;color:var(--ivory);margin-bottom:1.3rem}
+.excerpt-cta .book-actions{justify-content:center}
