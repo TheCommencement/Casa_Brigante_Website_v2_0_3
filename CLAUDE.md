@@ -1,3 +1,54 @@
+# ============================================================
+# CASA BRIGANTÈ CREATIVE EXPERIENCE STANDARD v1.0
+# The governing standard for every creative property the house
+# presents: artists, novels, productions, and future disciplines.
+# Ratified by the founder. Rules exist before rooms.
+# ============================================================
+
+## THE FOUNDING SENTENCE
+Casa Brigantè presents WORLDS, not products. Products may be purchased; worlds are experienced.
+This is the reason the book pages read as exhibits instead of storefronts, and it governs Music, Audio Dramas, and every division that follows.
+
+## TWO IDENTITIES, ALWAYS SIMULTANEOUS
+Every property balances a constant institutional identity with a variable property identity.
+
+### 1. Institutional Identity (CONSTANT — never changes across any property)
+Header · navigation · footer · typography · grid · spacing · editorial tone · GOLD institutional accents · estate watermark · CTA pattern · component behavior.
+Visitors must always know they are inside Casa Brigantè.
+GOLD RULE: gold is the institutional constant, the equivalent of Penguin orange / Criterion black / Ferrari red. Gold owns the institutional LAYER specifically (header, CB estate mark, dividers, buy/listen actions). It is never reassigned to a property. Lock it.
+
+### 2. Property Identity (VARIABLE — each property owns these, never interchangeable)
+- ONE defining visual ANCHOR (see Anchor Principle)
+- ONE atmospheric accent color (secondary to gold; owns mood/texture only, never the institutional furniture)
+- ONE motion language (see Motion Is Identity)
+- ONE environmental texture
+- ONE narrative voice
+- ONE emotional identity
+
+## MOTION IS IDENTITY
+Motion is not decoration. Motion communicates character. Someone should recognize the property even if every page were grayscale.
+- VANTA: deliberate, restrained transitions; minimal animation; precision and control.
+- MOONREALM: slow ambient drift; light bloom; lunar atmosphere.
+- Solana Reyes: almost imperceptible movement; film grain; dust; paper texture; long pauses.
+All motion respects prefers-reduced-motion.
+
+## THE ANCHOR PRINCIPLE
+Every creative property must have ONE definitive image, chosen with book-cover-level care. It is the canonical visual reference for website hero, press kit, streaming platforms, social, marketing, and internal docs. Everything else may evolve; the anchor remains. It is the artist's equivalent of a book cover.
+
+## IDENTITY BEFORE INVENTORY
+A page never exists merely because content might arrive later. A property launches ONLY when it possesses: a complete narrative identity, a canonical visual anchor, a finished world, and meaningful content. Additional releases enrich the experience; they do not define it. Build fully, one property at a time. Never launch empty rooms.
+
+## SOLANA FIRST (rationale)
+Solana Reyes is the PROOF OF CONCEPT, not merely the most-documented artist. She demonstrates that Casa Brigantè builds interconnected intellectual property, not a media display: a visitor moves from A Song She Wrote (novel) to Solana Reyes (artist) to future recordings/performances/productions without leaving one narrative universe. If that experience works, the architecture is validated for every future original property. Build the Solana novel<->artist bridge in both directions.
+
+## WHY THIS STANDARD EXISTS (the house method)
+Rules before rooms, always: constitution before company, design system before components, component library before pages, governance before operations, brand standards before logos. The Music Room and every future division follow the same order.
+
+## Naming ruling (founder-ratified)
+- Navigation stays LITERAL for legibility: Books, Music, Audio Dramas, HAWS, Vault 12, Plug & Play. Evocative names are page HEADINGS, not nav labels (Books page opens "The Collection", etc.). Do not rename nav items to Library/Listening Room/The Stage.
+- ONE exception: "About" is renamed "The House" everywhere (nav + page eyebrow), href stays about.html. It reinforces the Casa/house identity without losing clarity. This is the only evocative nav label.
+- MUSIC ROOM plan (next build): label roster, not a streaming clone. Framing: "Casa Brigantè develops recording artists." Music index = artist cards (VANTA, MOONREALM, Solana Reyes) -> each opens a distinct artist page mirroring the book-detail structure (hero image, statement, the world, gallery, music/videos when live, upcoming). The Commencement Music entity stays invisible (About only), same rule as Excelsa. CRITICAL cross-link: Solana Reyes bridges novel <-> artist (A Song She Wrote <-> Solana music page <-> back to novel); build both directions. Each artist page must feel like its own world via a per-artist accent color from their brand board (VANTA gold-on-black, MOONREALM lunar purple, Solana concrete-gray/gold) while keeping the shared house frame. Build 2-3 artists FULLY rather than all thinly. Founder bringing key image + live-status per artist.
+
 ## Book pages: edition-truth + preview refinements (founder-ratified)
 - IMPRINT RULING (founder's call, better than the earlier plan): keep the site in agreement with Amazon and the copyright page. Live books show "Published by TFG Publications" + "Rights administered by Excelsa Cornua Rights Group" (two truths). Bury Me in Tucson shows "Published by Excelsa Cornua Rights Group". When the four are reprinted under Excelsa with new ISBNs, swap the first line to Excelsa and update ISBN + Amazon links together. No historical mismatch.
 - Preview section renamed "Read Chapter One" -> "Preview the Novel". Heading now: eyebrow "From the opening pages", then italic "Chapter One · <title>". Makes clear it is an excerpt, not the full chapter.
