@@ -1,0 +1,416 @@
+/* ============================================================
+   CASA BRIGANTÈ · styles.css · v1.0
+   The building is quiet. The work is not.
+   Tokens descend from Design System v1.0. Do not add new
+   visual patterns without updating CLAUDE.md.
+   ============================================================ */
+
+:root{
+  --onyx:#070707;
+  --charcoal:#100f0d;
+  --panel:#151412;
+  --ivory:#ede7da;
+  --ivory-dim:#c6beb0;
+  --smoke:#8a8275;
+  --gold:#c9a24b;
+  --gold-soft:#dcbd72;
+  --gold-deep:#7b5b2e;
+  --border:rgba(237,231,218,.13);
+  --container:1200px;
+  --fast:160ms;--std:260ms;
+  --shadow:0 24px 60px rgba(0,0,0,.45);
+  --serif-display:"Cormorant Garamond",Georgia,serif;
+  --serif-body:"EB Garamond",Georgia,serif;
+  --sans:"Inter",Arial,sans-serif;
+}
+
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--onyx);color:var(--ivory);font-family:var(--serif-body);font-size:1.1rem;line-height:1.7}
+img{display:block;max-width:100%}
+a{color:inherit}
+button,input{font:inherit}
+.container{width:min(calc(100% - 2.5rem),var(--container));margin-inline:auto}
+.section{padding:7rem 0}
+.section-muted{background:var(--charcoal)}
+.skip-link{position:absolute;left:-9999px}
+.skip-link:focus{left:1rem;top:1rem;background:var(--gold);color:var(--onyx);padding:.75rem 1rem;z-index:1000}
+.sr-only{position:absolute!important;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+
+/* ---- Type ---- */
+h1,h2,h3{font-family:var(--serif-display);font-weight:500;line-height:1.04;margin:0 0 1.25rem;letter-spacing:-.01em}
+h1{font-size:clamp(3rem,7.5vw,6.4rem)}
+h2{font-size:clamp(2.3rem,4.6vw,4.2rem)}
+h3{font-size:clamp(1.5rem,2.6vw,2.2rem)}
+.eyebrow{font-family:var(--sans);text-transform:uppercase;letter-spacing:.2em;font-size:.72rem;font-weight:600;color:var(--gold);margin:0 0 1rem}
+.lede{font-size:1.22rem;color:var(--ivory-dim);max-width:40rem}
+p{margin:0 0 1.25rem;max-width:44rem}
+
+/* ---- Header ---- */
+.site-header{position:sticky;top:0;z-index:50;background:rgba(7,7,7,.88);backdrop-filter:blur(14px);border-bottom:1px solid var(--border)}
+.header-inner{min-height:78px;display:flex;align-items:center;justify-content:space-between;gap:2rem}
+.brand{display:flex;align-items:center;gap:.85rem;text-decoration:none}
+.brand-monogram{display:grid;place-items:center;width:40px;height:40px;border:1px solid var(--gold-deep);border-radius:50%;font-family:var(--serif-display);color:var(--gold);font-size:1.05rem}
+.brand-name{font-family:var(--serif-display);font-size:1.65rem;letter-spacing:.02em}
+.desktop-nav{display:flex;gap:1.6rem}
+.desktop-nav a,.mobile-nav a,.site-footer a{font-family:var(--sans);font-size:.85rem;letter-spacing:.05em;text-decoration:none;color:var(--ivory)}
+.desktop-nav a:hover,.mobile-nav a:hover,.site-footer a:hover{color:var(--gold-soft)}
+.menu-toggle{display:none;background:none;border:0;padding:.5rem;cursor:pointer}
+.menu-toggle span:not(.sr-only){display:block;width:26px;height:1px;background:var(--ivory);margin:6px}
+.mobile-nav{display:none;padding:1rem 1.25rem 1.5rem;border-top:1px solid var(--border)}
+.mobile-nav.is-open{display:grid;gap:1rem}
+
+/* ---- Hero ---- */
+.hero{min-height:86vh;display:flex;flex-direction:column;justify-content:center;position:relative;padding:6rem 0 4rem}
+.hero-center{max-width:58rem;margin-inline:auto;text-align:center}
+.hero-center .lede{margin-inline:auto}
+.entry-line{display:inline-block;margin-top:2.6rem;font-family:var(--serif-display);font-style:italic;font-size:1.5rem;color:var(--gold-soft);text-decoration:none;border-bottom:1px solid var(--gold-deep);padding-bottom:.35rem;transition:color var(--fast),border-color var(--fast)}
+.entry-line:hover{color:var(--gold);border-color:var(--gold)}
+.hero-rule{position:absolute;bottom:0;left:50%;transform:translateX(-50%);width:min(320px,52vw);height:1px;background:linear-gradient(90deg,transparent,var(--gold-deep),transparent)}
+
+/* ---- Featured ---- */
+.section-header{max-width:46rem;margin-bottom:3.2rem}
+.featured-book{display:grid;grid-template-columns:minmax(250px,380px) 1fr;gap:4rem;align-items:center}
+.cover-frame{margin:0;padding:1.1rem;background:var(--panel);border:1px solid var(--border);box-shadow:var(--shadow)}
+.featured-book-copy p{color:var(--ivory-dim);max-width:34rem}
+.text-link{display:inline-block;font-family:var(--serif-display);font-style:italic;font-size:1.18rem;text-decoration:none;color:var(--gold-soft);border-bottom:1px solid transparent;transition:color var(--fast),border-color var(--fast)}
+.text-link:hover{color:var(--gold);border-color:var(--gold-deep)}
+
+/* ---- Manifesto rule ---- */
+.manifesto{padding:5rem 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.manifesto blockquote{margin:0;text-align:center;font-family:var(--serif-display);font-size:clamp(1.9rem,4vw,3.2rem);font-style:italic;color:var(--ivory);letter-spacing:.01em}
+
+/* ---- Catalog ---- */
+.catalog-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:1.6rem}
+.catalog-card img{width:100%;aspect-ratio:2/3;object-fit:cover;border:1px solid var(--border);transition:transform var(--std),border-color var(--std)}
+.catalog-card:hover img{transform:translateY(-6px);border-color:rgba(201,162,75,.45)}
+.catalog-card h3{font-size:1.18rem;margin:1rem 0 .25rem}
+.catalog-card p{color:var(--smoke);font-size:.95rem;font-style:italic;margin:0}
+
+/* ---- About ---- */
+.editorial-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:5rem}
+.editorial-copy{font-size:1.18rem;color:var(--ivory-dim)}
+.editorial-copy p:last-child{font-family:var(--serif-display);font-style:italic;font-size:1.45rem;color:var(--ivory)}
+
+/* ---- Divisions ---- */
+.division-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.4rem}
+.division-card{background:var(--panel);border:1px solid var(--border);overflow:hidden;transition:transform var(--std),border-color var(--std),box-shadow var(--std)}
+.division-card:hover{transform:translateY(-5px);border-color:rgba(201,162,75,.4);box-shadow:var(--shadow)}
+.division-card>img{width:100%;aspect-ratio:4/3;object-fit:cover;filter:saturate(.85)}
+.division-card>div{padding:1.6rem}
+.division-card .eyebrow{margin-bottom:.4rem}
+.division-card h3{font-size:1.5rem}
+.type-tile{width:100%;aspect-ratio:4/3;display:grid;place-items:center;background:linear-gradient(160deg,#14130f,#0c0b09);border-bottom:1px solid var(--border)}
+.type-tile span{font-family:var(--sans);font-weight:600;font-size:clamp(1.6rem,2.6vw,2.3rem);letter-spacing:.34em;color:var(--ivory);padding-left:.34em}
+.division-card p{color:var(--ivory-dim);font-size:1rem}
+
+/* ---- Journal ---- */
+.journal-feature{display:grid;grid-template-columns:1fr .75fr;gap:3rem;align-items:center;border-top:1px solid var(--border);padding-top:2.4rem}
+.journal-feature p{color:var(--ivory-dim)}
+.journal-feature img{width:100%;max-height:520px;object-fit:cover;border:1px solid var(--border)}
+.plain-link{color:inherit;text-decoration:none}
+.plain-link:hover{color:var(--gold-soft)}
+
+/* ---- Correspondence ---- */
+.newsletter-section{background:linear-gradient(180deg,var(--charcoal),#0b0a09)}
+.newsletter{display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:end}
+.newsletter-note{color:var(--ivory-dim);font-style:italic;margin-top:-.5rem}
+.newsletter-form{display:grid;grid-template-columns:1fr auto;gap:.75rem}
+.newsletter-form input{min-height:50px;background:#0c0b0a;color:var(--ivory);border:1px solid var(--border);padding:0 1rem;font-family:var(--sans);font-size:.95rem}
+.newsletter-form input:focus{outline:2px solid var(--gold-soft);outline-offset:3px}
+.button{display:inline-flex;align-items:center;justify-content:center;min-height:50px;padding:0 1.5rem;background:transparent;color:var(--ivory);border:1px solid var(--gold-deep);font-family:var(--sans);text-transform:uppercase;letter-spacing:.12em;font-size:.76rem;font-weight:600;cursor:pointer;transition:background var(--fast),color var(--fast),border-color var(--fast)}
+.button:hover{background:var(--gold);border-color:var(--gold);color:var(--onyx)}
+.form-confirm{grid-column:1/-1;color:var(--gold-soft);font-style:italic;margin:0;min-height:1.4em;font-size:1rem}
+
+/* ---- Footer ---- */
+.site-footer{padding:3.2rem 0;border-top:1px solid var(--border)}
+.footer-grid{display:grid;grid-template-columns:1.2fr 1fr auto;gap:2rem;align-items:end}
+.site-footer nav{display:flex;gap:1.25rem;flex-wrap:wrap}
+.footer-note,.copyright{font-family:var(--sans);color:var(--smoke);font-size:.85rem}
+
+/* ---- Motion ---- */
+.reveal{opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease}
+.reveal.is-visible{opacity:1;transform:none}
+:focus-visible{outline:2px solid var(--gold-soft);outline-offset:4px}
+
+/* ---- Responsive ---- */
+@media (max-width:64rem){
+  .featured-book,.editorial-grid,.journal-feature,.newsletter{grid-template-columns:1fr}
+  .catalog-grid{grid-template-columns:repeat(3,1fr)}
+  .division-grid{grid-template-columns:1fr 1fr}
+}
+@media (max-width:48rem){
+  .desktop-nav{display:none}
+  .menu-toggle{display:block}
+  .section{padding:4.5rem 0}
+  .container{width:min(calc(100% - 2rem),var(--container))}
+  .catalog-grid{grid-template-columns:1fr 1fr}
+  .division-grid,.newsletter-form,.footer-grid{grid-template-columns:1fr}
+  .hero{min-height:78vh}
+}
+@media (prefers-reduced-motion:reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}
+  .reveal{opacity:1;transform:none}
+}
+
+/* ===== Phase 1 pages ===== */
+.brand-mark{height:40px;width:auto}
+.page-hero{padding:6.5rem 0 3rem}
+.page-hero h1{font-size:clamp(2.8rem,6vw,5rem)}
+.catalog-card .text-link{font-size:1rem}
+
+/* ===== Direction Lock round 1 ===== */
+.hero{position:relative;overflow:hidden}
+.hero-watermark{position:absolute;inset:0;background:url('assets/brand/CB_Emblem_Watermark_v1.png') center 44%/min(760px,88vw) no-repeat;opacity:.13;pointer-events:none}
+.hero-center{position:relative}
+.desktop-nav{gap:1.25rem}
+.desktop-nav a{font-size:.82rem}
+
+/* ===== Round 3: balance, scale, motif system ===== */
+.brand-mark{height:36px;width:auto;flex:none}
+.site-header{overflow:visible}
+.header-inner{min-height:82px}
+
+/* Hero emblem: stronger, precisely centered, responsive opacity */
+.hero{min-height:80vh;padding:5rem 0 3rem}
+.hero-watermark{background:url('assets/brand/CB_Emblem_Watermark_v1.png') center 40%/min(780px,90vw) no-repeat;opacity:.21}
+.hero-center{max-width:69rem}
+.hero-center .lede{max-width:44rem}
+@media (max-width:48rem){.hero-watermark{opacity:.13;background-size:min(520px,96vw)}}
+@media (min-width:100rem){.hero-watermark{background-size:min(900px,58vw)}.hero-center{max-width:72rem}}
+
+/* Featured section: the proof beneath the philosophy */
+.featured-major .featured-book{grid-template-columns:minmax(300px,470px) 1fr;gap:4.5rem}
+.featured-major .cover-frame{padding:1.4rem}
+.featured-major h2{font-size:clamp(2.6rem,5vw,4.6rem)}
+
+/* Recurring motif: architectural fragment on selected page heroes + footer */
+.with-motif{position:relative;overflow:hidden}
+.with-motif::before{content:"";position:absolute;inset:0;background:url('assets/brand/CB_Emblem_Fragment_v1.png') right -60px top -20px/420px no-repeat;opacity:.10;pointer-events:none}
+.with-motif .container{position:relative}
+.site-footer{position:relative;overflow:hidden}
+.site-footer::after{content:"";position:absolute;right:-40px;bottom:-30px;width:340px;height:230px;background:url('assets/brand/CB_Emblem_Fragment_v1.png') center/contain no-repeat;opacity:.06;pointer-events:none}
+
+/* ===== Round 4: FINAL HOMEPAGE LOCK ===== */
+/* Header: taller, estate-icon lockup, weightier nav */
+.header-inner{min-height:90px}
+.brand-mark{height:40px}
+.desktop-nav a,.mobile-nav a{font-weight:500}
+
+/* Emblem: feathered, embedded, emerges from the charcoal like old ink */
+.hero-watermark{background:url('assets/brand/CB_Emblem_Feathered_v1.png') center 40%/min(820px,92vw) no-repeat;opacity:.26}
+@media (max-width:48rem){.hero-watermark{opacity:.16;background-size:min(540px,98vw)}}
+@media (min-width:100rem){.hero-watermark{background-size:min(950px,60vw)}.hero-center{max-width:74rem}}
+@media (min-width:150rem){.hero-center{max-width:82rem}.hero-watermark{background-size:1050px}}
+
+/* Motion: pure fade, nothing slides dramatically */
+.reveal{transform:translateY(8px)}
+
+/* Footer: richer, with social row */
+.footer-social{display:flex;gap:1.1rem;flex-wrap:wrap;margin-top:.4rem}
+.footer-social a{color:var(--smoke);font-size:.8rem}
+.footer-social a:hover{color:var(--gold-soft)}
+
+/* ===== Round 5: the first 5% (header, nav, rhythm) ===== */
+.header-inner{min-height:100px}
+.brand{gap:1rem}
+.brand-mark{height:48px}
+.brand-stack{display:flex;flex-direction:column;line-height:1.2}
+.brand-name{font-size:1.45rem}
+.brand-tag{font-family:var(--sans);font-size:.52rem;font-weight:500;letter-spacing:.24em;text-transform:uppercase;color:var(--gold-soft);margin-top:.15rem}
+
+/* Navigation: all caps, letterspaced, gold diamond separators, refined hover */
+.desktop-nav{gap:0;align-items:center}
+.desktop-nav a{text-transform:uppercase;letter-spacing:.1em;font-size:.72rem;font-weight:500;padding:.2rem 0 .35rem;border-bottom:1px solid transparent;transition:color var(--fast),border-color var(--fast);margin-left:1.05rem}
+.desktop-nav a+a::before{content:"\25C6";color:var(--gold-deep);font-size:.4rem;vertical-align:2px;margin-right:1.05rem;display:inline-block}
+.desktop-nav a:hover{color:var(--gold-soft);border-bottom-color:var(--gold-deep)}
+.mobile-nav a{text-transform:uppercase;letter-spacing:.1em;font-size:.78rem}
+
+/* Hero: charcoal ground, emblem present but subordinate */
+.hero{background:#0b0b0b}
+.hero-watermark{opacity:.23}
+
+/* CTA: gold, subtle glow on hover, ornament beneath the line */
+.entry-line{position:relative}
+.entry-line:hover{text-shadow:0 0 16px rgba(201,162,75,.45)}
+.entry-line::after{content:"\25C6";position:absolute;left:50%;transform:translateX(-50%);bottom:-1.4rem;font-size:.42rem;color:var(--gold-deep)}
+
+/* ===== Round 5.1: FINAL header emblem + hero lift ===== */
+.header-inner{min-height:108px}
+.brand{gap:.9rem}
+.brand-emblem{height:78px;width:auto;flex:none}
+.brand-name{font-size:1.55rem}
+.hero-watermark{opacity:.28}
+@media (max-width:48rem){.brand-emblem{height:60px}.brand-name{font-size:1.25rem}.hero-watermark{opacity:.18}}
+
+/* ===== FINAL LOCK ===== */
+.header-inner{min-height:116px}
+.brand-emblem{height:88px}
+.desktop-nav a{transition:color var(--fast);margin-left:.9rem}
+.desktop-nav a+a::before{margin-right:.9rem}
+.desktop-nav a:hover{border-bottom-color:var(--gold)}
+.hero{padding-bottom:1.5rem}
+.featured-major{padding-top:2.5rem}
+@media (min-width:120rem){.hero-center{max-width:78rem}}
+@media (max-width:48rem){.hero-center h1{font-size:clamp(2.5rem,10vw,3.6rem)}.hero{padding-top:3.5rem}.brand-emblem{height:64px}}
+.copyright a{color:var(--smoke);text-decoration:none}
+.copyright a:hover{color:var(--gold-soft)}
+
+/* ===== v3.0.1: dogs visible, icon in house gold ===== */
+.hero-watermark{background-position:center 16%;background-size:min(880px,94vw)}
+.hero{padding-top:6.5rem}
+@media (max-width:48rem){.hero-watermark{background-position:center 20%;background-size:min(560px,100vw)}}
+
+/* ===== HOMEPAGE VERSION 1.0 — FINAL ===== */
+.hero-watermark{background-position:center 10%}
+@media (max-width:48rem){.hero-watermark{background-position:center 14%}}
+.brand{margin-left:14px}
+body{line-height:1.8}
+.editorial-copy{line-height:1.85}
+
+/* ===== Homepage 1.0.1: the guardians take the high ground ===== */
+.hero{min-height:96vh;justify-content:flex-start;padding-top:2.2rem}
+.hero-watermark{background-position:center top;background-size:min(830px,92vw)}
+.hero-center{margin-top:clamp(330px,40vh,470px)}
+@media (max-width:48rem){
+  .hero-watermark{background-position:center top;background-size:min(580px,104vw)}
+  .hero-center{margin-top:clamp(230px,34vh,330px)}
+  .hero{min-height:92vh}
+}
+
+/* ===== Homepage 1.0.2: composition, icon confidence, nav breath ===== */
+.hero-watermark{background-position:center -45px}
+.brand-emblem{height:96px}
+.desktop-nav a{margin-left:1.15rem}
+.desktop-nav a+a::before{margin-right:1.15rem}
+@media (max-width:48rem){
+  .hero-watermark{background-position:center -20px}
+  .brand-emblem{height:70px}
+}
+
+/* ===== Homepage 1.0.3: estate up, breathing, text untouched ===== */
+.hero-watermark{background-position:center -125px;background-size:min(872px,96vw)}
+@media (max-width:48rem){
+  .hero-watermark{background-position:center -60px;background-size:min(610px,108vw)}
+}
+
+/* ===== HERO COMPOSITION LOCK: art anchored to typography ===== */
+.hero-watermark{display:none}
+.hero{min-height:88vh;justify-content:center;padding:5rem 0 3rem}
+.hero-center{margin-top:0;position:relative}
+.hero-art{
+  position:absolute;
+  left:50%;
+  top:-42px;                     /* roof peak lands behind line one */
+  transform:translateX(-50%);
+  width:min(690px,86vw);         /* ~10% smaller: the illustration supports, never competes */
+  aspect-ratio:977/679;
+  background:url('assets/brand/CB_Hero_Composition_v1.png') center/contain no-repeat;
+  opacity:.30;
+  pointer-events:none;
+  z-index:0;
+}
+.hero-center > *:not(.hero-art){position:relative;z-index:1}
+@media (max-width:64rem){.hero-art{width:min(560px,88vw);top:-30px}}
+@media (max-width:48rem){.hero-art{width:min(420px,92vw);top:-18px;opacity:.24}}
+
+/* ===== Hero composition 1.1.1: final nudge ===== */
+.hero-art{top:-67px;width:min(655px,84vw)}
+@media (max-width:64rem){.hero-art{width:min(532px,86vw);top:-48px}}
+@media (max-width:48rem){.hero-art{width:min(400px,90vw);top:-32px}}
+
+/* ===== Header 1.1.2: publisher's mark scale + optical alignment ===== */
+.brand-emblem{height:118px}
+.brand{gap:1.5rem;transform:translateY(-3px)}
+.header-inner{min-height:132px}
+@media (max-width:64rem){.brand-emblem{height:92px}.header-inner{min-height:110px}}
+@media (max-width:48rem){.brand-emblem{height:78px}.brand{gap:1rem}.header-inner{min-height:96px}}
+
+/* ===== HERO COMPOSITION: FINAL LOCK (scale first, then align to type) ===== */
+.hero-art{
+  width:min(600px,82vw);
+  aspect-ratio:977/604;
+  top:-25px;
+}
+@media (max-width:64rem){.hero-art{width:min(500px,84vw);top:-18px}}
+@media (max-width:48rem){.hero-art{width:min(380px,88vw);top:-12px;opacity:.26}}
+
+/* Header mark: publisher's device scale, house palette */
+.brand-emblem{height:140px}
+.header-inner{min-height:152px}
+@media (max-width:64rem){.brand-emblem{height:104px}.header-inner{min-height:120px}}
+@media (max-width:48rem){.brand-emblem{height:82px}.header-inner{min-height:100px}}
+
+/* ===== HERO: THREE ZONES. Headline / Guardians / Copy. Full uncropped art. ===== */
+.hero{min-height:auto;padding:4.5rem 0 5.5rem;justify-content:flex-start}
+.hero-center{margin-top:0}
+
+.hero-art-full{
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%);
+  top:160px;                          /* zone 2 begins below the headline */
+  width:min(909px,94vw);
+  aspect-ratio:1320/755;              /* original proportions preserved */
+  background:url('assets/brand/CB_Hero_Full_v2.png') center/contain no-repeat;
+  opacity:.34;
+  pointer-events:none;
+  z-index:0;
+}
+/* zone 3: copy clears the guardians entirely */
+.hero-center .lede{margin-top:276px}
+
+@media (max-width:64rem){
+  .hero-art-full{top:150px;width:min(700px,94vw)}
+  .hero-center .lede{margin-top:205px}
+}
+@media (max-width:48rem){
+  .hero-art-full{top:140px;width:min(400px,96vw);opacity:.30}
+  .hero-center .lede{margin-top:110px}
+}
+
+/* ===== Hero 1.2.1: guardians up, copy fully clear of the artwork ===== */
+.hero-art-full{top:140px}
+.hero-center .lede{margin-top:325px}
+@media (max-width:64rem){
+  .hero-art-full{top:130px}
+  .hero-center .lede{margin-top:250px}
+}
+@media (max-width:48rem){
+  .hero-art-full{top:120px}
+  .hero-center .lede{margin-top:150px}
+}
+
+/* ===== Hero 1.2.2: balcony meets "transcend" ===== */
+.hero-art-full{top:110px}
+@media (max-width:64rem){.hero-art-full{top:104px}}
+@media (max-width:48rem){.hero-art-full{top:98px}}
+
+/* ===== Hero 1.3: artwork raised, faces protected by trimming headline height ===== */
+.hero-center h1{font-size:clamp(3rem,6.2vw,5.2rem)}
+.hero-art-full{top:75px}
+.hero-center .lede{margin-top:325px}
+@media (max-width:64rem){
+  .hero-art-full{top:95px}
+  .hero-center .lede{margin-top:260px}
+}
+@media (max-width:48rem){
+  .hero-center h1{font-size:clamp(2.2rem,9vw,3.2rem)}
+  .hero-art-full{top:130px}
+  .hero-center .lede{margin-top:175px}
+}
+
+/* ===== Hero 1.4: words across the estate, guardians clear beneath ===== */
+.hero-center h1{font-size:clamp(2.8rem,5.6vw,4.6rem)}
+.hero-art-full{top:45px}
+.hero-center .lede{margin-top:335px}
+@media (max-width:64rem){
+  .hero-art-full{top:70px}
+  .hero-center .lede{margin-top:265px}
+}
+@media (max-width:48rem){
+  .hero-center h1{font-size:clamp(2.1rem,8.5vw,3.1rem)}
+  .hero-art-full{top:105px}
+  .hero-center .lede{margin-top:160px}
+}

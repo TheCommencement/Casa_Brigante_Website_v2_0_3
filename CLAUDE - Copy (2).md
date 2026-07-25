@@ -1,6 +1,3 @@
-## Header mark color FINAL
-Header estate icon retinted to the CENTER emblem's cream-gold duotone (shadow #12110f, mid #b79860, highlight #e0d6be), not the harder nav gold. It now reads the same cream-on-dark as the hero illustration. This matches; do not change it again.
-
 ## Hero 1.4
 - Artwork raised 30px (top:45). Headline max trimmed to 4.6rem to buy that height while keeping the guardians' faces clear; the two trade against each other (see measured geometry below).
 - Result: the headline crosses the estate, house and balcony, and the guardians sit in clear space directly beneath it.
