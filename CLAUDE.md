@@ -1,7 +1,7 @@
 ## Books = compact catalog + deep detail pages (v2.2)
 - books.html: horizontal rows (96px cover, title, author + genre, one-line hook, "View Book" link), full-width dividers. Fast and elegant; no purchase buttons on the catalog itself.
 - Each row opens book-<slug>.html: large cover, full synopsis, Paperback + Kindle Edition buttons, publication line, "More from the Collection" related grid. Bury Me in Tucson detail page shows "Coming Soon", no links.
-- "Built to Last" tightened ~35%: two short paragraphs, Excelsa reduced to one fine closing line, pulled near the last row.
+- "Built to Last" closing editorial appears at the foot of the Books index AND at the end of every individual book page (whichever door a reader enters, they leave on the imprint's permanence note). Tightened ~35%: two short paragraphs, Excelsa reduced to one fine closing line, pulled near the last row.
 - SITE WATERMARK: full feathered estate as a FIXED body::before pseudo-element, opacity .05, CENTERED (left 50%, translateX -50%) matching the homepage hero, hidden on mobile. Replaces the old cropped footer image (footer::after disabled).
 - FOOTER cleaned: Correspondence and Plug & Play removed from footer nav (still in header where active).
 
