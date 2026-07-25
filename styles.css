@@ -414,3 +414,26 @@ body{line-height:1.8}
   .hero-art-full{top:105px}
   .hero-center .lede{margin-top:160px}
 }
+
+/* ===== Books: The Collection ===== */
+.library-divider{display:flex;align-items:center;gap:1.5rem;margin-bottom:3rem;color:var(--gold);font-family:var(--sans);text-transform:uppercase;letter-spacing:.22em;font-size:.74rem}
+.library-divider::before,.library-divider::after{content:"";flex:1;height:1px;background:var(--border)}
+.library-grid{display:grid;grid-template-columns:1fr;gap:2.5rem}
+.library-card{display:grid;grid-template-columns:170px 1fr;gap:2.2rem;align-items:center;padding-bottom:2.5rem;border-bottom:1px solid var(--border)}
+.library-card:last-child{border-bottom:0;padding-bottom:0}
+.library-cover img{width:170px;aspect-ratio:2/3;object-fit:cover;border:1px solid var(--border);box-shadow:var(--shadow);transition:transform var(--std)}
+.library-cover:hover img{transform:translateY(-4px)}
+.library-meta h3{font-size:1.9rem;margin:0 0 .3rem}
+.library-author{font-family:var(--sans);text-transform:uppercase;letter-spacing:.14em;font-size:.68rem;color:var(--gold);margin:0 0 .7rem}
+.library-line{color:var(--ivory-dim);font-style:italic;font-size:1.12rem;margin:0 0 1.3rem}
+.book-actions{display:flex;gap:.8rem;flex-wrap:wrap}
+.book-btn{display:inline-flex;align-items:center;min-height:42px;padding:0 1.4rem;font-family:var(--sans);text-transform:uppercase;letter-spacing:.1em;font-size:.72rem;font-weight:500;text-decoration:none;transition:all var(--fast)}
+.book-btn-primary{background:transparent;border:1px solid var(--gold);color:var(--gold-soft)}
+.book-btn-primary:hover{background:var(--gold);color:var(--onyx)}
+.book-btn-ghost{border:1px solid var(--border);color:var(--ivory-dim)}
+.book-btn-ghost:hover{border-color:var(--gold-deep);color:var(--gold-soft)}
+.book-status{display:inline-flex;align-items:center;min-height:42px;font-family:var(--sans);text-transform:uppercase;letter-spacing:.12em;font-size:.72rem;color:var(--smoke);font-style:normal}
+.closing-editorial{text-align:center}
+.closing-editorial h2{font-size:clamp(2rem,3.5vw,2.8rem)}
+.closing-editorial p{color:var(--ivory-dim);margin-inline:auto;line-height:1.85}
+@media (max-width:48rem){.library-card{grid-template-columns:120px 1fr;gap:1.3rem}.library-cover img{width:120px}.library-meta h3{font-size:1.4rem}}

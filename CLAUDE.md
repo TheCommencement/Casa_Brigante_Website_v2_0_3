@@ -1,3 +1,9 @@
+## Books page = "The Collection" (v2.1, founder-ratified)
+- The catalog reads as a library, not a store: cover + title + author + register line + actions, on a bordered editorial list.
+- TWO EDITIONS PER TITLE, both wired: Paperback (primary button) and eBook/Kindle (ghost button). Paperback ASINs: Loyal B0FRLJ2KRD, Song B0FJFJC337, WLWE B0FGYDTPYT, October B0FJ7JC5HQ. Kindle ASINs retained from launch. Bury Me in Tucson shows "Coming Soon", NO link, until publication.
+- Closing "Built to Last" editorial replaces the Excelsa logo block: text only, no button, no logo, no CTA. Reads like the last page of a book.
+- SITEWIDE FIXES this round: Chronicle removed from all nav; social links removed from all headers/footers (keep visitors inside); Privacy + Terms in every footer. Footer nav locked: Books, Music, Audio Dramas, HAWS, Vault 12, Plug & Play, About, Inquiries, Privacy, Terms.
+
 ## Header mark color FINAL
 Header estate icon retinted to the CENTER emblem's cream-gold duotone (shadow #12110f, mid #b79860, highlight #e0d6be), not the harder nav gold. It now reads the same cream-on-dark as the hero illustration. This matches; do not change it again.
 
