@@ -442,9 +442,10 @@ body{line-height:1.8}
 body::before{
   content:"";
   position:fixed;
-  right:-4%;
-  bottom:-6%;
-  width:min(760px,60vw);
+  left:50%;
+  bottom:4%;
+  transform:translateX(-50%);
+  width:min(820px,88vw);
   aspect-ratio:1320/755;
   background:url('assets/brand/CB_Watermark_Site_v1.png') center/contain no-repeat;
   opacity:.05;
