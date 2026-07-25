@@ -1,3 +1,13 @@
+## Books = compact catalog + deep detail pages (v2.2)
+- books.html: horizontal rows (96px cover, title, author + genre, one-line hook, "View Book" link), full-width dividers. Fast and elegant; no purchase buttons on the catalog itself.
+- Each row opens book-<slug>.html: large cover, full synopsis, Paperback + Kindle Edition buttons, publication line, "More from the Collection" related grid. Bury Me in Tucson detail page shows "Coming Soon", no links.
+- "Built to Last" tightened ~35%: two short paragraphs, Excelsa reduced to one fine closing line, pulled near the last row.
+- SITE WATERMARK: full feathered estate as a FIXED body::before pseudo-element, opacity .05, bottom-right, hidden on mobile. Replaces the old cropped footer image (footer::after disabled).
+- FOOTER cleaned: Correspondence and Plug & Play removed from footer nav (still in header where active).
+
+## LINK AUDIT NEEDED (founder must verify)
+Three overlapping link lists have been provided across sessions. Current wiring: Paperback buttons use B0FRLJ2KRD/B0FJFJC337/B0FGYDTPYT/B0FJ7JC5HQ; Kindle buttons use B0FRF69VDR/B0FHGJVSLS/B0FGX9TLYT/B0FJ6RBG7N. Founder must click each and confirm edition + title match, because these lists have conflicted between sessions.
+
 ## Books page = "The Collection" (v2.1, founder-ratified)
 - The catalog reads as a library, not a store: cover + title + author + register line + actions, on a bordered editorial list.
 - TWO EDITIONS PER TITLE, both wired: Paperback (primary button) and eBook/Kindle (ghost button). Paperback ASINs: Loyal B0FRLJ2KRD, Song B0FJFJC337, WLWE B0FGYDTPYT, October B0FJ7JC5HQ. Kindle ASINs retained from launch. Bury Me in Tucson shows "Coming Soon", NO link, until publication.

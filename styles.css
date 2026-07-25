@@ -437,3 +437,59 @@ body{line-height:1.8}
 .closing-editorial h2{font-size:clamp(2rem,3.5vw,2.8rem)}
 .closing-editorial p{color:var(--ivory-dim);margin-inline:auto;line-height:1.85}
 @media (max-width:48rem){.library-card{grid-template-columns:120px 1fr;gap:1.3rem}.library-cover img{width:120px}.library-meta h3{font-size:1.4rem}}
+
+/* ===== Site-wide fixed estate watermark ===== */
+body::before{
+  content:"";
+  position:fixed;
+  right:-4%;
+  bottom:-6%;
+  width:min(760px,60vw);
+  aspect-ratio:1320/755;
+  background:url('assets/brand/CB_Watermark_Site_v1.png') center/contain no-repeat;
+  opacity:.05;
+  pointer-events:none;
+  z-index:0;
+}
+.site-footer::after{display:none}
+@media (max-width:48rem){body::before{display:none}}
+
+/* ===== Books catalog: compact horizontal rows ===== */
+.catalog{display:flex;flex-direction:column}
+.cat-row{display:grid;grid-template-columns:96px 1fr auto;gap:1.8rem;align-items:center;padding:1.8rem 0;border-bottom:1px solid var(--border);text-decoration:none;transition:padding-left var(--std)}
+.cat-row:first-child{border-top:1px solid var(--border)}
+.cat-row:hover{padding-left:.6rem}
+.cat-cover{width:96px;aspect-ratio:2/3;object-fit:cover;border:1px solid var(--border);box-shadow:0 10px 26px rgba(0,0,0,.4)}
+.cat-info h3{font-size:1.55rem;margin:0 0 .3rem;color:var(--ivory)}
+.cat-author{font-family:var(--sans);text-transform:uppercase;letter-spacing:.13em;font-size:.66rem;color:var(--gold);margin:0 0 .5rem}
+.cat-line{color:var(--ivory-dim);font-style:italic;margin:0;font-size:1.02rem}
+.cat-view{font-family:var(--sans);text-transform:uppercase;letter-spacing:.1em;font-size:.7rem;color:var(--gold-soft);white-space:nowrap}
+.cat-row:hover .cat-view{color:var(--gold)}
+
+/* Tightened closing editorial */
+.closing-editorial-tight{padding:3.5rem 0 4.5rem;text-align:center}
+.closing-editorial-tight h2{font-size:clamp(1.9rem,3vw,2.5rem);margin-bottom:1.2rem}
+.closing-editorial-tight p{color:var(--ivory-dim);margin-inline:auto;line-height:1.8}
+.closing-fine{font-size:.9rem;color:var(--smoke);margin-top:1.4rem;font-style:italic}
+
+/* ===== Book detail page ===== */
+.detail-grid{display:grid;grid-template-columns:minmax(220px,300px) 1fr;gap:3.5rem;align-items:start;margin-bottom:3rem}
+.detail-cover img{width:100%;border:1px solid var(--border);box-shadow:var(--shadow)}
+.detail-copy h1{font-size:clamp(2.4rem,4.5vw,3.6rem);margin:.3rem 0}
+.detail-author{font-family:var(--sans);text-transform:uppercase;letter-spacing:.14em;font-size:.72rem;color:var(--gold);margin:0 0 1.4rem}
+.detail-hook{font-size:1.3rem;font-style:italic;color:var(--ivory);margin-bottom:1.8rem}
+.purchase-area{display:flex;gap:.8rem;flex-wrap:wrap;align-items:center;margin-bottom:1.2rem}
+.purchase-note{font-size:.9rem;color:var(--smoke);font-style:italic;margin:.4rem 0 0}
+.detail-pub{font-family:var(--sans);font-size:.72rem;text-transform:uppercase;letter-spacing:.1em;color:var(--smoke)}
+.detail-synopsis{max-width:44rem;font-size:1.12rem;color:var(--ivory-dim);line-height:1.85}
+.related-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem}
+.rel-card{text-decoration:none;text-align:center}
+.rel-card img{width:100%;aspect-ratio:2/3;object-fit:cover;border:1px solid var(--border);transition:transform var(--std)}
+.rel-card:hover img{transform:translateY(-4px)}
+.rel-card p{margin:.7rem 0 0;font-size:.95rem;color:var(--ivory-dim)}
+@media (max-width:48rem){
+  .cat-row{grid-template-columns:70px 1fr;gap:1.1rem}
+  .cat-cover{width:70px}.cat-view{grid-column:2;justify-self:start;margin-top:.3rem}
+  .detail-grid{grid-template-columns:1fr;gap:1.8rem}
+  .related-grid{grid-template-columns:1fr 1fr}
+}
