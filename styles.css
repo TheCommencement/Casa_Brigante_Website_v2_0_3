@@ -494,3 +494,49 @@ body::before{
   .detail-grid{grid-template-columns:1fr;gap:1.8rem}
   .related-grid{grid-template-columns:1fr 1fr}
 }
+
+/* ===== Book detail enrichments ===== */
+/* cover larger + gentle float + gold glow on primary button */
+.detail-grid{grid-template-columns:minmax(260px,350px) 1fr}
+.detail-cover img{animation:bookfloat 6s ease-in-out infinite}
+@keyframes bookfloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-5px)}}
+@media (prefers-reduced-motion:reduce){.detail-cover img{animation:none}}
+.book-btn-primary{position:relative;box-shadow:0 0 0 rgba(201,162,75,0)}
+.book-btn-primary:hover{box-shadow:0 0 22px rgba(201,162,75,.4)}
+
+/* button sublabels */
+.book-btn{flex-direction:column;line-height:1.15;min-height:52px;padding:.5rem 1.4rem;text-align:center}
+.btn-main{font-size:.74rem}
+.btn-sub{font-size:.58rem;letter-spacing:.08em;opacity:.7;font-weight:400}
+
+/* hierarchical publisher line */
+.pub-hierarchy{display:flex;gap:2.5rem;margin-top:.5rem}
+.pub-hierarchy .pub-key{display:block;font-family:var(--sans);font-size:.6rem;text-transform:uppercase;letter-spacing:.14em;color:var(--smoke);margin-bottom:.2rem}
+.pub-hierarchy .pub-val{display:block;font-family:var(--serif-display);font-size:1.05rem;color:var(--ivory-dim)}
+
+/* collectible metadata */
+.collectible-meta{list-style:none;padding:2rem 0 0;margin:2.5rem 0 0;border-top:1px solid var(--border);display:grid;grid-template-columns:repeat(5,auto);gap:2.2rem;max-width:44rem}
+.collectible-meta li{font-family:var(--serif-display);font-size:1.05rem;color:var(--ivory)}
+.collectible-meta span{display:block;font-family:var(--sans);font-size:.58rem;text-transform:uppercase;letter-spacing:.14em;color:var(--gold);margin-bottom:.35rem}
+
+/* collection reading order */
+.coll-list{display:flex;flex-direction:column;gap:.2rem}
+.coll-item{display:flex;align-items:center;gap:.9rem;padding:.85rem 1rem;text-decoration:none;color:var(--ivory-dim);border:1px solid transparent;transition:all var(--fast);font-size:1.05rem}
+.coll-item:hover{border-color:var(--border);color:var(--ivory)}
+.coll-mark{color:var(--gold);font-size:.8rem}
+.coll-soon{color:var(--smoke)}
+.coll-soon .coll-mark{color:var(--gold-deep)}
+.coll-current{background:rgba(201,162,75,.06);border-color:var(--gold-deep);color:var(--ivory)}
+@media (max-width:48rem){.collectible-meta{grid-template-columns:1fr 1fr;gap:1.4rem}.pub-hierarchy{gap:1.5rem}}
+
+/* ===== Book depth: pull quotes, metadata, chapter preview ===== */
+.pull-quotes{display:grid;grid-template-columns:1fr 1fr;gap:2.5rem;margin:3rem 0;padding:2.5rem 0;border-top:1px solid var(--border);border-bottom:1px solid var(--border)}
+.pull-q{margin:0;font-family:var(--serif-display);font-style:italic;font-size:1.5rem;line-height:1.4;color:var(--ivory);position:relative;padding-left:1.3rem}
+.pull-q::before{content:"\201C";position:absolute;left:-.2rem;top:-.4rem;font-size:2.4rem;color:var(--gold-deep);font-family:var(--serif-display)}
+.meta-fine{font-size:.78rem;color:var(--smoke);font-style:italic;margin-top:1rem}
+.chapter-preview{background:linear-gradient(180deg,var(--charcoal),#0b0a09)}
+.chapter-label{font-family:var(--sans);text-transform:uppercase;letter-spacing:.16em;font-size:.72rem;color:var(--gold);margin-bottom:1.6rem}
+.chapter-text p{font-size:1.15rem;line-height:1.9;color:var(--ivory-dim);margin-bottom:1.3rem}
+.chapter-text p:first-child::first-letter{font-family:var(--serif-display);font-size:3.6rem;float:left;line-height:.8;padding:.4rem .6rem .2rem 0;color:var(--gold-soft)}
+.chapter-note{font-style:italic;color:var(--smoke);font-size:.92rem;margin-top:1.5rem;text-align:center}
+@media (max-width:48rem){.pull-quotes{grid-template-columns:1fr;gap:1.8rem}.pull-q{font-size:1.3rem}}

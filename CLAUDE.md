@@ -1,3 +1,30 @@
+## Book depth added from VERIFIED source files (founder-supplied content package)
+Each live book page now carries: two spoiler-free pull quotes (exact wording from the manuscripts), a real metadata block (reading time, pages, ISBN, first-published year, imprint), and a "Read Chapter One" preview (the short promotional sample from the content package, with a drop cap and a note that it is a preview only).
+- Imprint per file: October's Change / When Love Was Enough / A Song She Wrote / Loyal 2 the Lie = TFG Publications (as printed in those books). Bury Me in Tucson = Excelsa Cornua Rights Group. NOTE: this conflicts with the earlier site-wide claim that all titles are "published under Excelsa Cornua." Books page "Built to Last" line says Excelsa manages rights/stewardship, which can remain true even if the printed imprint differs, but FOUNDER SHOULD CONFIRM how he wants imprint vs rights-holder presented.
+- Bury Me in Tucson: NO ISBN and NO page count shown (manuscript had only placeholder ISBN 9 / 1 and a bogus 1-page DOCX count). Shows "On publication" for both. Never publish the placeholder ISBNs.
+- Reading times shown as estimates (250 wpm), per the content package method.
+- STILL NOT PROVIDED (do not invent): author's notes / Behind the Story, character rosters (Meet the Players), social proof / sales numbers. The Bury Me in Tucson dedication to India Simpson exists but is a DEDICATION; only use as "Behind the Book" if the founder explicitly approves.
+- Rights note from the package: every excerpt is a short promotional sample under all-rights-reserved; founder controls the rights, so use is at his direction.
+
+## Book detail enrichment (round 1, buildable items done)
+DONE without new inputs: cover enlarged ~17% with a gentle 6s float (reduced-motion respected); gold glow on the primary purchase button; button sublabels (Paperback/Amazon, Kindle Edition/Amazon Kindle); hierarchical publisher line (Published by / Status); collectible metadata block (Collection, Volume I-V by publication order, Genre, First Edition, Setting); "The Casa Brigantè Collection" reading-order strip on every book page with the current title highlighted and Bury Me in Tucson marked Coming Soon.
+NEEDS FOUNDER INPUT before building (do not invent any of these):
+  - Author's Notes / "Behind the Story" text per book
+  - Character roster ("Meet the Players") per book, names + one-line non-spoiler intros
+  - 3-4 spoiler-free pull quotes per book, taken from the actual manuscripts
+  - Real metadata: page count, publication date, ISBN, estimated reading time
+  - "Read Chapter One" excerpt files
+  - Any real social proof (copies sold, reviews) — never fabricate numbers
+  - 3D paperback mockup renders if wanted (currently flat covers)
+FLAG: parallax on the fixed watermark deferred; background-attachment:fixed already gives a parallax-like feel and true JS parallax risks the mobile-performance rule.
+
+## ✅ LOCKED PAGES (founder sign-off, do not modify without a direct quote from the founder)
+- HOMEPAGE: complete and locked.
+- BOOKS WING: books.html + all five book detail pages, complete and locked. Compact horizontal catalog, deep detail pages, Paperback + Kindle buttons, related titles, "Built to Last" closing every page, centered estate watermark.
+Any future edit to these pages requires the founder's explicit instruction. Only a genuine bug reopens them.
+OPEN ROOMS (next work): Music, Audio Dramas, HAWS, Vault 12, Plug & Play, About, Inquiries.
+STILL PENDING: founder to verify the four books' Paperback/Kindle links; Bury Me in Tucson cover (flagship blocker); custom domain DNS.
+
 ## Books = compact catalog + deep detail pages (v2.2)
 - books.html: horizontal rows (96px cover, title, author + genre, one-line hook, "View Book" link), full-width dividers. Fast and elegant; no purchase buttons on the catalog itself.
 - Each row opens book-<slug>.html: large cover, full synopsis, Paperback + Kindle Edition buttons, publication line, "More from the Collection" related grid. Bury Me in Tucson detail page shows "Coming Soon", no links.
