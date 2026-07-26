@@ -547,3 +547,29 @@ body::before{
 .excerpt-cta{margin-top:2.8rem;padding-top:2.2rem;border-top:1px solid var(--border);text-align:center}
 .excerpt-cta-line{font-family:var(--serif-display);font-style:italic;font-size:1.4rem;color:var(--ivory);margin-bottom:1.3rem}
 .excerpt-cta .book-actions{justify-content:center}
+
+/* ===== Artist pages: hero, statement/world, members, gallery ===== */
+/* Per-property accent set via inline style on .artist-page (--accent). Gold stays institutional throughout; --accent owns mood/texture only on this page. */
+.artist-hero{position:relative;min-height:74vh;display:flex;align-items:flex-end;background-size:cover;background-position:center 30%;border-bottom:1px solid var(--border)}
+.artist-hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,7,7,.15) 0%,rgba(7,7,7,.55) 60%,var(--onyx) 100%)}
+.artist-hero-inner{position:relative;z-index:1;padding:3.5rem 0}
+.artist-hero .eyebrow{color:var(--accent,var(--gold))}
+.artist-hero h1{font-size:clamp(3.2rem,9vw,7rem);margin-bottom:.4rem}
+.artist-hero .lede{color:var(--ivory-dim)}
+.artist-statement{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start}
+.artist-statement .statement-line{font-family:var(--serif-display);font-style:italic;font-size:1.7rem;line-height:1.4;color:var(--ivory);margin-bottom:1.6rem}
+.artist-statement p{color:var(--ivory-dim)}
+.members-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.3rem}
+.member-card{background:var(--panel);border:1px solid var(--border);transition:border-color var(--std),transform var(--std)}
+.member-card:hover{border-color:var(--accent,var(--gold-deep));transform:translateY(-4px)}
+.member-card img{width:100%;aspect-ratio:3/4;object-fit:cover;filter:saturate(.88)}
+.member-card-body{padding:1.3rem 1.2rem 1.5rem}
+.member-name{font-family:var(--serif-display);font-size:1.35rem;color:var(--ivory);margin:0 0 .15rem}
+.member-role{font-family:var(--sans);text-transform:uppercase;letter-spacing:.14em;font-size:.68rem;color:var(--accent,var(--gold-soft));margin:0 0 .8rem}
+.member-line{font-size:.95rem;color:var(--ivory-dim);margin:0}
+.artist-gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:.6rem}
+.artist-gallery img{width:100%;aspect-ratio:1/1;object-fit:cover;filter:saturate(.85)}
+.artist-upcoming{border:1px solid var(--border);padding:2.2rem;text-align:center}
+.artist-upcoming p{color:var(--ivory-dim);margin:0}
+@media (max-width:64rem){.members-grid{grid-template-columns:1fr 1fr}.artist-gallery{grid-template-columns:1fr 1fr}}
+@media (max-width:48rem){.artist-statement{grid-template-columns:1fr;gap:2rem}.members-grid{grid-template-columns:1fr 1fr}}
