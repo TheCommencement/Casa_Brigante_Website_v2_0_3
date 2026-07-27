@@ -580,3 +580,18 @@ body::before{
 /* a hairline rule under each hero sub, like a poster credit line */
 .vanta-sub::after,.mr-sub::after,.sol-sub::after{content:"";display:block;width:60px;height:1px;background:currentColor;opacity:.5;margin:1.4rem auto 0}
 .sol-hero-inner .sol-sub::after{margin-left:0}
+
+/* ===== DEPARTMENT HERO — house standard (the MOONREALM formula) ===== */
+.dept-hero{position:relative;min-height:88vh;display:flex;align-items:flex-end;overflow:hidden;background:var(--onyx)}
+.dept-hero-img{position:absolute;inset:0;background:var(--dept-img) center/cover no-repeat}
+.dept-hero-img::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,7,7,.5),transparent 24%,transparent 60%,rgba(7,7,7,.6) 90%,var(--onyx))}
+.dept-hero::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;background:linear-gradient(180deg,rgba(7,7,7,.4),transparent 20%,transparent 64%,rgba(7,7,7,.5) 94%,var(--onyx))}
+.dept-hero-inner{position:relative;z-index:2;padding-bottom:5rem;width:100%}
+.dept-eyebrow{font-family:var(--sans);text-transform:uppercase;letter-spacing:.22em;font-size:.7rem;color:var(--gold);margin-bottom:1rem}
+.dept-title{font-family:var(--serif-display);font-weight:500;letter-spacing:.02em;font-size:clamp(3rem,8vw,6.5rem);margin:.2rem 0 .5rem;color:var(--ivory);text-shadow:0 4px 50px rgba(0,0,0,.7)}
+.dept-sub{font-family:var(--serif-display);font-style:italic;font-size:clamp(1.15rem,2.4vw,1.7rem);color:var(--ivory-dim);margin:0}
+.dept-sub::after{content:"";display:block;width:60px;height:1px;background:var(--gold-deep);margin-top:1.4rem}
+@media (max-width:48rem){.dept-hero{min-height:72vh}.dept-title{font-size:clamp(2.4rem,11vw,3.6rem)}}
+
+/* VANTA member portraits from wide gold-hall shots — keep faces framed */
+.member-portrait img{object-position:center 20%}

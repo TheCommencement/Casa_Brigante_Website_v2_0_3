@@ -1,3 +1,14 @@
+## VANTA finalized (bug fix + new photos)
+- BUG FIXED: vanta_hero.jpg had been overwritten with an orange/Solana image (that's why the VANTA hero and Music-roster thumb showed Solana). Replaced with the correct clean gold-hall VANTA group shot (no text). Roster thumb auto-fixed (points at vanta_hero.jpg).
+- New individual member portraits set from founder's gold-hall solo shots (Aria Vale, Juno Knox, Nyla Starr, Elara Bloom), cropped to the person, name-text excluded. Theme unchanged (gold-on-black gothic luxury), just finalized with better photos.
+- VANTA is now DONE. Do not touch. Next: MOONREALM finalize, then Solana finalize (per founder's one-act-at-a-time approach — the right call).
+
+## DEPARTMENT HERO STANDARD (the house formula, founder-ratified)
+The MOONREALM/artist hero formula is now the standard for EVERY department front page. Reusable .dept-hero component (in styles.css): full-bleed cinematic image, top+bottom vignette, floating serif title over the lower third, uppercase gold eyebrow, italic one-line tagline with a gold hairline. Set the image per page via inline --dept-img.
+- BOOKS uses it now: books-hero.jpg = the five covers arranged as a fanned shelf in warm gold light with edge-lighting and vignette (built from the real cover files; regenerate if covers change, especially when Bury Me in Tucson's real cover exists).
+- ROLL-OUT PENDING (apply .dept-hero to each, founder to approve image per department): HAWS, Vault 12, Audio Dramas, Plug & Play, The House, Inquiries. Each needs a hero image: either its own key art or the estate emblem as fallback.
+- Books hero image is COMPOSITE-GENERATED, not a photo; when the founder supplies real product/lifestyle photography it can replace books-hero.jpg (CSS already points at it).
+
 ## Artist heroes elevated (press-kit -> film-poster)
 - All three artist heroes now use CLEAN, TEXT-FREE cinematic key art (not press-kit sheets): vanta_hero.jpg (gothic cathedral group), moonrealm_hero.jpg (gold eclipse duo, bottom text cropped), solana_hero.jpg (golden-hour rust, baked logo cropped out). Music roster thumbnails updated to match.
 - Hero treatment: 92vh, cinematic top+bottom vignette, poster-credit hairline under the subtitle, stronger title text-shadow. Each keeps its own accent + motion. Old *_anchor.jpg press sheets remain only for internal reference, not shown as backgrounds.
