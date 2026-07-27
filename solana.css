@@ -1,23 +1,25 @@
-/* SOLANA REYES room: prison-canon editorial. Rust + muted institutional gold, matte black, no motion flourish. */
-:root{--sr-rust:#a8532f;--sr-gold:#b8965a;--sr-deep:#0c0a08}
-.sr-hero{position:relative;min-height:78vh;display:flex;align-items:flex-end;overflow:hidden;background:var(--sr-deep)}
-.sr-hero-img{position:absolute;inset:0;background:url('assets/artists/solana_anchor.jpg') center 28%/cover no-repeat;filter:grayscale(.15) contrast(1.05)}
-.sr-hero-img::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,10,8,.25) 0%,rgba(12,10,8,.35) 45%,rgba(7,7,7,.96) 100%)}
-.sr-hero-inner{position:relative;padding:3.5rem 0}
-.sr-eyebrow{font-family:var(--sans);text-transform:uppercase;letter-spacing:.22em;font-size:.7rem;color:var(--sr-gold);margin-bottom:.6rem}
-.sr-title{font-family:var(--serif-display);font-size:clamp(3rem,9vw,7rem);color:var(--ivory);margin:0 0 .3rem}
-.sr-sub{font-family:var(--serif-display);font-style:italic;color:var(--sr-rust);font-size:1.3rem;margin:0}
-.sr-statement{padding:5rem 0;background:linear-gradient(180deg,#0e0c0a,var(--onyx))}
-.sr-statement .sr-quote{font-family:var(--serif-display);font-style:italic;font-size:1.6rem;line-height:1.45;color:var(--ivory);margin-bottom:1.4rem}
-.sr-statement p{color:var(--ivory-dim)}
-.sr-label{font-family:var(--sans);text-transform:uppercase;letter-spacing:.2em;font-size:.68rem;color:var(--sr-gold)}
-.sr-song{border:1px solid rgba(184,150,90,.25);padding:2.4rem;background:#100d0a}
-.sr-song h3{font-family:var(--serif-display);font-style:italic;font-size:2.2rem;color:var(--ivory);margin:.3rem 0 1rem}
-.sr-disc{display:grid;grid-template-columns:repeat(5,1fr);gap:1rem;text-align:center}
-.sr-disc-item{border:1px solid rgba(184,150,90,.2);padding:1.2rem .8rem;font-family:var(--sans);letter-spacing:.05em;font-size:.85rem;color:var(--ivory-dim)}
-.sr-quotes{display:grid;grid-template-columns:1fr 1fr;gap:2rem}
-.sr-quotes blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-size:1.15rem;color:var(--ivory-dim);border-left:2px solid var(--sr-rust);padding-left:1.2rem}
-.sr-facts{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem;text-align:center;border-top:1px solid rgba(184,150,90,.2);border-bottom:1px solid rgba(184,150,90,.2);padding:1.8rem 0}
-.sr-facts span{display:block;font-family:var(--sans);text-transform:uppercase;letter-spacing:.12em;font-size:.6rem;color:var(--sr-gold);margin-bottom:.3rem}
-.sr-facts div{font-family:var(--serif-display);font-size:1.05rem;color:var(--ivory)}
-@media (max-width:64rem){.sr-disc{grid-template-columns:repeat(2,1fr)}.sr-quotes{grid-template-columns:1fr}.sr-facts{grid-template-columns:1fr 1fr}}
+/* Solana room: concrete, rust, paper. Gold institutional + RUST atmosphere + near-still motion. */
+:root{--sol-rust:#b8552e;--sol-concrete:#8a8578;--sol-paper:#d8cfbf}
+.sol-hero{position:relative;min-height:84vh;display:flex;align-items:flex-end;overflow:hidden;background:#0c0b0a}
+.sol-hero-img{position:absolute;inset:0;background:url('assets/artists/solana_anchor.jpg') center 30%/cover no-repeat;filter:saturate(.82)}
+.sol-hero-img::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,11,10,.5) 0%,rgba(12,11,10,.2) 42%,rgba(7,7,7,.95) 100%)}
+.sol-hero-inner{position:relative;padding-bottom:4rem;width:100%}
+.sol-title{font-family:var(--serif-display);font-weight:500;letter-spacing:.04em;font-size:clamp(3rem,9vw,7rem);margin:.3rem 0 .5rem;color:var(--sol-paper)}
+.sol-sub{font-family:var(--serif-display);font-style:italic;font-size:clamp(1.2rem,2.5vw,1.7rem);color:var(--sol-rust);margin:0}
+.sol-eyebrow,.sol-label{font-family:var(--sans);text-transform:uppercase;letter-spacing:.2em;font-size:.68rem;color:var(--sol-rust);margin-bottom:1rem}
+.sol-statement{padding:5.5rem 0;background:linear-gradient(180deg,#100e0c,var(--onyx))}
+.sol-big{font-family:var(--serif-display);font-style:italic;font-size:clamp(1.8rem,4vw,2.9rem);color:var(--sol-paper);line-height:1.4;margin-bottom:1rem}
+.sol-attr{font-family:var(--sans);text-transform:uppercase;letter-spacing:.16em;font-size:.72rem;color:var(--sol-concrete)}
+.sol-world .section-header h2,.sol-song h2,.sol-novel h2,.sol-credits h2{color:var(--sol-paper)}
+.sol-disco{font-family:var(--serif-display);font-style:italic;color:var(--sol-rust);font-size:1.1rem;margin-top:1.2rem}
+.sol-platforms,.sol-follow{font-family:var(--sans);text-transform:uppercase;letter-spacing:.1em;font-size:.72rem;color:var(--smoke);margin-top:1rem}
+.sol-novel-grid{display:grid;grid-template-columns:240px 1fr;gap:3rem;align-items:center}
+.sol-novel-cover img{width:240px;border:1px solid var(--border);box-shadow:var(--shadow)}
+.sol-novel p{color:var(--ivory-dim);margin-bottom:1.5rem}
+.sol-divider{display:flex;align-items:center;gap:1.5rem;margin-bottom:2rem;color:var(--sol-rust);font-family:var(--sans);text-transform:uppercase;letter-spacing:.22em;font-size:.72rem;justify-content:center}
+.sol-divider::before,.sol-divider::after{content:"";flex:1;height:1px;background:var(--border)}
+.sol-credits{background:linear-gradient(180deg,var(--onyx),#100e0c)}
+.sol-credits-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.8rem;margin:1.5rem 0;text-align:center}
+.sol-credits-grid span{display:block;font-family:var(--sans);text-transform:uppercase;letter-spacing:.14em;font-size:.58rem;color:var(--sol-rust);margin-bottom:.35rem}
+.sol-credits-grid div{font-family:var(--serif-display);font-size:1.05rem;color:var(--ivory-dim)}
+@media (max-width:48rem){.sol-novel-grid{grid-template-columns:1fr;text-align:center}.sol-novel-cover img{margin:0 auto}.sol-credits-grid{grid-template-columns:1fr 1fr}}

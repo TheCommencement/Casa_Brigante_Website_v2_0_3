@@ -563,3 +563,6 @@ body::before{
 .roster-view-muted{color:var(--smoke)}
 .roster-soon{opacity:.72}
 @media (max-width:48rem){.roster-card{grid-template-columns:1fr}.roster-card img,.roster-placeholder{width:100%}.roster-meta{padding:0 1.5rem 1.5rem}}
+
+/* artist universe cross-link parity */
+.vanta-universe,.mr-universe,.sol-universe{margin-top:2rem}

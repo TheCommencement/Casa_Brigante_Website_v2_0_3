@@ -1,3 +1,14 @@
+## Artist parity pass
+All three artist pages now share the same section rhythm (hero, statement, world, members/song, credits) and each ends its credits with a "More from the Casa Brigante roster" link back to music.html. VANTA and MOONREALM layouts/colors/motion were NOT otherwise changed (they were founder-approved); only the universe cross-link was added for consistency with Solana.
+
+## SOLANA REYES room built (3rd artist — completes the novel<->music bridge, the proof of concept)
+- artist-solana-reyes.html: concrete/rust/paper aesthetic (property accent RUST #b8552e on concrete-gray/paper; gold stays institutional). Near-still motion (no drift, no float) = her signature: patience, confinement. solana.css holds styles.
+- Sections: hero ("The voice prison couldn't silence."), Artist Statement ("Music became the one place they couldn't lock me out."), Her World, The Song ("ghost" + discography: ghost/Letters to Sergio/ADC Anthem/Five Life Sentences/Until Then), From the Novel (A Song She Wrote, links to book-a-song-she-wrote.html), Credits.
+- SENSITIVE-CONTENT HANDLING (deliberate, per founder + safety): Solana's canon includes incarceration for the livestream killings and 5 life sentences. The public page leads with MUSIC and WRITING, uses the prison setting as atmosphere and mythology, and does NOT dramatize, detail, or glorify the violence. The full story lives in the novel; the page points there. Keep it this way.
+- THE BRIDGE IS LIVE BOTH WAYS: Solana artist page -> A Song She Wrote novel page, and the novel is her canon source. This is the interconnected-IP proof the whole Creative Experience Standard was built to validate.
+- All THREE artists now live in the Music roster, each a distinct world: VANTA (gold/cold/still), MOONREALM (purple/nocturnal/drift), Solana (rust/concrete/still-but-human).
+- PENDING: Solana streaming links when "ghost" is live; confirm anchor/portrait image choices; her canon is heavy (Afro-Latina, Mesa AZ, brother Sergio OD) — never invent beyond the bible.
+
 ## MOONREALM room built (2nd artist, proves the multi-room system)
 - artist-moon-realm.html = full nocturnal world. Anchor = gold eclipse masked-duo key art (moonrealm_anchor.jpg). Members: The Sovereign (Architect, producer/silent/precise) + The Oracle (Voice, performer/transmission/mask-changes). Statement "We don't follow the light. We create our own." World, Discography (Eclipse/Oblivion/Lunar Codes/Enter the Realm), Credits.
 - ATMOSPHERE per Creative Experience Standard: gold stays institutional; MOONREALM's property accent = PURPLE (#6c5ce7 / lilac #8b7fd4) on deep violet-black. MOTION SIGNATURE = slow 22s ambient drift on the hero (vs VANTA's stillness). moonrealm.css holds room styles. This is the proof that two rooms feel completely different while sharing the house frame.
@@ -348,11 +359,3 @@ Links were provided in this order and wired to the catalog in publication order.
 
 ## Working style
 The founder directs; Claude executes and flags options rather than deciding unilaterally on brand or creative matters. Words first, code second. Protect execution momentum: prefer shipping a small correct change over expanding scope.
-
-## Solana Reyes artist page built
-- New solana.css room added (rust + muted institutional gold, matte, no ambient motion, deliberately quieter than VANTA/Moon Realm since the character is incarcerated, not performing).
-- Hero image is a low-res crop from a concept moodboard sheet (assets/artists/solana_anchor.jpg), placeholder until a dedicated high-res hero exists.
-- CONTENT NOTE: the founder's reference set included several very photorealistic "prison" photos of a consistent character, plus one photo of three different real-looking women in orange prison-style shirts. Per the Production Bible's own Face Lock system (Solana is an explicitly locked, built AI persona, "not a real person's" body/face per the doc), Claude treated the photorealistic reference set as persona mood reference only, not as final published assets, and did not use the three-women photo at all since it depicts different, unrelated real-looking people. STILL PENDING: a real dedicated high-res hero image and portrait for Solana, ideally generated fresh against the documented Face Lock so it's usable at full bleed.
-- Press pull-quotes are intentionally unattributed (no real outlet names) since the founder's brief asked for "fictional but grounded" quotes; several reference images showed real outlet logos (NPR, Rolling Stone, Apple Music) mocked up as if they'd covered Solana. Did not use those, real publication branding shouldn't be faked as having covered a fictional artist.
-- Discography titles (ghost, Letters to Sergio, ADC Anthem, Five Life Sentences, Until Then...) pulled from the founder's own discography-artwork mockup, kept as-is since they're original title choices, not AI filler.
-- Founder's 12-section EPK spec (executive overview, timeline, awards, appendix, etc.) was condensed into a single web page matching the site's existing artist-page pattern rather than built as a literal 12-section document. A separate downloadable PDF EPK is still on the table if she wants the full print-style version.
