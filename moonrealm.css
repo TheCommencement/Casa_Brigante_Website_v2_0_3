@@ -1,0 +1,36 @@
+/* MOONREALM room: nocturnal ritual. Gold institutional + PURPLE atmosphere + slow drift. */
+:root{--mr-purple:#6c5ce7;--mr-lilac:#8b7fd4;--mr-deep:#0d0b18}
+.mr-hero{position:relative;min-height:86vh;display:flex;align-items:flex-end;overflow:hidden;background:var(--mr-deep)}
+.mr-hero-img{position:absolute;inset:0;background:url('assets/artists/moonrealm_anchor.jpg') center 30%/cover no-repeat}
+.mr-hero-img::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 50% 35%,rgba(108,92,231,.12),transparent 55%),linear-gradient(180deg,rgba(13,11,24,.45) 0%,rgba(13,11,24,.15) 40%,rgba(7,7,7,.94) 100%)}
+.mr-hero-inner{position:relative;padding-bottom:4rem;text-align:center;width:100%}
+.mr-title{font-family:var(--serif-display);font-weight:500;letter-spacing:.24em;font-size:clamp(3rem,11vw,8.5rem);margin:.3rem 0 .5rem;color:#e9e6f5;text-shadow:0 0 60px rgba(108,92,231,.5)}
+.mr-sub{font-family:var(--sans);text-transform:uppercase;letter-spacing:.4em;font-size:.82rem;color:var(--mr-lilac);margin:0}
+.mr-eyebrow,.mr-label{font-family:var(--sans);text-transform:uppercase;letter-spacing:.24em;font-size:.68rem;color:var(--mr-lilac);margin-bottom:1rem}
+.mr-big{font-family:var(--serif-display);font-style:italic;font-size:clamp(1.7rem,3.8vw,2.8rem);color:#e9e6f5;line-height:1.4}
+.mr-statement{padding:5.5rem 0;background:linear-gradient(180deg,#0b0a12,var(--onyx))}
+.mr-world .section-header h2,.mr-music h2,.mr-credits h2{color:#e9e6f5}
+
+/* slow ambient drift on the hero image — MOONREALM's motion signature */
+@keyframes mrdrift{0%{transform:scale(1.04) translateY(0)}50%{transform:scale(1.07) translateY(-12px)}100%{transform:scale(1.04) translateY(0)}}
+.mr-hero-img{animation:mrdrift 22s ease-in-out infinite}
+@media (prefers-reduced-motion:reduce){.mr-hero-img{animation:none}}
+
+.mr-divider{display:flex;align-items:center;gap:1.5rem;margin-bottom:3rem;color:var(--mr-lilac);font-family:var(--sans);text-transform:uppercase;letter-spacing:.22em;font-size:.72rem;justify-content:center}
+.mr-divider::before,.mr-divider::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,transparent,rgba(139,127,212,.4),transparent)}
+.mr-members{display:grid;grid-template-columns:1fr 1fr;gap:2.5rem}
+.mr-member{display:grid;grid-template-columns:210px 1fr;gap:1.8rem;align-items:start;background:#0f0d1a;border:1px solid rgba(139,127,212,.18);padding:1.6rem;transition:border-color var(--std)}
+.mr-member:hover{border-color:rgba(139,127,212,.5)}
+.mr-portrait img{width:210px;height:280px;object-fit:cover;object-position:top center;border:1px solid rgba(139,127,212,.2)}
+.mr-body h3{font-size:1.7rem;margin:0 0 .2rem;color:#e9e6f5}
+.mr-role{font-family:var(--serif-display);font-style:italic;color:var(--mr-lilac);font-size:1.1rem;margin:0 0 .2rem}
+.mr-disc{font-family:var(--sans);text-transform:uppercase;letter-spacing:.12em;font-size:.6rem;color:var(--mr-purple);margin:0 0 1rem}
+.mr-bio{color:var(--ivory-dim);font-size:1.02rem;line-height:1.7;margin:0}
+.mr-timeline{font-family:var(--serif-display);font-style:italic;color:var(--mr-lilac);font-size:1.15rem;margin-top:1.2rem}
+.mr-platforms,.mr-follow{font-family:var(--sans);text-transform:uppercase;letter-spacing:.1em;font-size:.72rem;color:var(--smoke);margin-top:1rem}
+.mr-credits{background:linear-gradient(180deg,var(--onyx),#0b0a12)}
+.mr-credits-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.8rem;margin:2rem 0 1.5rem;text-align:center}
+.mr-credits-grid span{display:block;font-family:var(--sans);text-transform:uppercase;letter-spacing:.14em;font-size:.6rem;color:var(--mr-lilac);margin-bottom:.35rem}
+.mr-credits-grid div{font-family:var(--serif-display);font-size:1.1rem;color:var(--ivory-dim)}
+@media (max-width:64rem){.mr-members{grid-template-columns:1fr}}
+@media (max-width:48rem){.mr-member{grid-template-columns:1fr;text-align:center}.mr-portrait img{width:100%;height:auto;max-width:240px;margin:0 auto}.mr-credits-grid{grid-template-columns:1fr}}

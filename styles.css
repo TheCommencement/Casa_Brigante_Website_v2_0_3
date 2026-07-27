@@ -548,28 +548,18 @@ body::before{
 .excerpt-cta-line{font-family:var(--serif-display);font-style:italic;font-size:1.4rem;color:var(--ivory);margin-bottom:1.3rem}
 .excerpt-cta .book-actions{justify-content:center}
 
-/* ===== Artist pages: hero, statement/world, members, gallery ===== */
-/* Per-property accent set via inline style on .artist-page (--accent). Gold stays institutional throughout; --accent owns mood/texture only on this page. */
-.artist-hero{position:relative;min-height:74vh;display:flex;align-items:flex-end;background-size:cover;background-position:center 30%;border-bottom:1px solid var(--border)}
-.artist-hero::before{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,7,7,.15) 0%,rgba(7,7,7,.55) 60%,var(--onyx) 100%)}
-.artist-hero-inner{position:relative;z-index:1;padding:3.5rem 0}
-.artist-hero .eyebrow{color:var(--accent,var(--gold))}
-.artist-hero h1{font-size:clamp(3.2rem,9vw,7rem);margin-bottom:.4rem}
-.artist-hero .lede{color:var(--ivory-dim)}
-.artist-statement{display:grid;grid-template-columns:1fr 1fr;gap:4rem;align-items:start}
-.artist-statement .statement-line{font-family:var(--serif-display);font-style:italic;font-size:1.7rem;line-height:1.4;color:var(--ivory);margin-bottom:1.6rem}
-.artist-statement p{color:var(--ivory-dim)}
-.members-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1.3rem}
-.member-card{background:var(--panel);border:1px solid var(--border);transition:border-color var(--std),transform var(--std)}
-.member-card:hover{border-color:var(--accent,var(--gold-deep));transform:translateY(-4px)}
-.member-card img{width:100%;aspect-ratio:3/4;object-fit:cover;filter:saturate(.88)}
-.member-card-body{padding:1.3rem 1.2rem 1.5rem}
-.member-name{font-family:var(--serif-display);font-size:1.35rem;color:var(--ivory);margin:0 0 .15rem}
-.member-role{font-family:var(--sans);text-transform:uppercase;letter-spacing:.14em;font-size:.68rem;color:var(--accent,var(--gold-soft));margin:0 0 .8rem}
-.member-line{font-size:.95rem;color:var(--ivory-dim);margin:0}
-.artist-gallery{display:grid;grid-template-columns:repeat(4,1fr);gap:.6rem}
-.artist-gallery img{width:100%;aspect-ratio:1/1;object-fit:cover;filter:saturate(.85)}
-.artist-upcoming{border:1px solid var(--border);padding:2.2rem;text-align:center}
-.artist-upcoming p{color:var(--ivory-dim);margin:0}
-@media (max-width:64rem){.members-grid{grid-template-columns:1fr 1fr}.artist-gallery{grid-template-columns:1fr 1fr}}
-@media (max-width:48rem){.artist-statement{grid-template-columns:1fr;gap:2rem}.members-grid{grid-template-columns:1fr 1fr}}
+/* ===== Music roster ===== */
+.roster-grid{display:grid;grid-template-columns:1fr;gap:2rem}
+.roster-card{display:grid;grid-template-columns:340px 1fr;gap:2.5rem;align-items:center;text-decoration:none;border:1px solid var(--border);background:var(--panel);overflow:hidden;transition:border-color var(--std),transform var(--std)}
+.roster-card:hover{border-color:rgba(201,162,75,.45);transform:translateY(-4px)}
+.roster-card img,.roster-placeholder{width:340px;height:230px;object-fit:cover}
+.roster-placeholder{display:grid;place-items:center;background:linear-gradient(150deg,#14130f,#0b0a09)}
+.roster-placeholder span{font-family:var(--sans);letter-spacing:.3em;color:var(--smoke);font-size:1rem;padding-left:.3em}
+.roster-meta{padding-right:2rem}
+.roster-meta h3{font-size:2rem;margin:0 0 .3rem}
+.roster-genre{font-family:var(--sans);text-transform:uppercase;letter-spacing:.14em;font-size:.66rem;color:var(--gold);margin:0 0 .7rem}
+.roster-line{font-family:var(--serif-display);font-style:italic;font-size:1.25rem;color:var(--ivory-dim);margin:0 0 1rem}
+.roster-view{font-family:var(--sans);text-transform:uppercase;letter-spacing:.1em;font-size:.7rem;color:var(--gold-soft)}
+.roster-view-muted{color:var(--smoke)}
+.roster-soon{opacity:.72}
+@media (max-width:48rem){.roster-card{grid-template-columns:1fr}.roster-card img,.roster-placeholder{width:100%}.roster-meta{padding:0 1.5rem 1.5rem}}

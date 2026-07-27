@@ -1,0 +1,23 @@
+/* SOLANA REYES room: prison-canon editorial. Rust + muted institutional gold, matte black, no motion flourish. */
+:root{--sr-rust:#a8532f;--sr-gold:#b8965a;--sr-deep:#0c0a08}
+.sr-hero{position:relative;min-height:78vh;display:flex;align-items:flex-end;overflow:hidden;background:var(--sr-deep)}
+.sr-hero-img{position:absolute;inset:0;background:url('assets/artists/solana_anchor.jpg') center 28%/cover no-repeat;filter:grayscale(.15) contrast(1.05)}
+.sr-hero-img::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(12,10,8,.25) 0%,rgba(12,10,8,.35) 45%,rgba(7,7,7,.96) 100%)}
+.sr-hero-inner{position:relative;padding:3.5rem 0}
+.sr-eyebrow{font-family:var(--sans);text-transform:uppercase;letter-spacing:.22em;font-size:.7rem;color:var(--sr-gold);margin-bottom:.6rem}
+.sr-title{font-family:var(--serif-display);font-size:clamp(3rem,9vw,7rem);color:var(--ivory);margin:0 0 .3rem}
+.sr-sub{font-family:var(--serif-display);font-style:italic;color:var(--sr-rust);font-size:1.3rem;margin:0}
+.sr-statement{padding:5rem 0;background:linear-gradient(180deg,#0e0c0a,var(--onyx))}
+.sr-statement .sr-quote{font-family:var(--serif-display);font-style:italic;font-size:1.6rem;line-height:1.45;color:var(--ivory);margin-bottom:1.4rem}
+.sr-statement p{color:var(--ivory-dim)}
+.sr-label{font-family:var(--sans);text-transform:uppercase;letter-spacing:.2em;font-size:.68rem;color:var(--sr-gold)}
+.sr-song{border:1px solid rgba(184,150,90,.25);padding:2.4rem;background:#100d0a}
+.sr-song h3{font-family:var(--serif-display);font-style:italic;font-size:2.2rem;color:var(--ivory);margin:.3rem 0 1rem}
+.sr-disc{display:grid;grid-template-columns:repeat(5,1fr);gap:1rem;text-align:center}
+.sr-disc-item{border:1px solid rgba(184,150,90,.2);padding:1.2rem .8rem;font-family:var(--sans);letter-spacing:.05em;font-size:.85rem;color:var(--ivory-dim)}
+.sr-quotes{display:grid;grid-template-columns:1fr 1fr;gap:2rem}
+.sr-quotes blockquote{margin:0;font-family:var(--serif-display);font-style:italic;font-size:1.15rem;color:var(--ivory-dim);border-left:2px solid var(--sr-rust);padding-left:1.2rem}
+.sr-facts{display:grid;grid-template-columns:repeat(4,1fr);gap:1.5rem;text-align:center;border-top:1px solid rgba(184,150,90,.2);border-bottom:1px solid rgba(184,150,90,.2);padding:1.8rem 0}
+.sr-facts span{display:block;font-family:var(--sans);text-transform:uppercase;letter-spacing:.12em;font-size:.6rem;color:var(--sr-gold);margin-bottom:.3rem}
+.sr-facts div{font-family:var(--serif-display);font-size:1.05rem;color:var(--ivory)}
+@media (max-width:64rem){.sr-disc{grid-template-columns:repeat(2,1fr)}.sr-quotes{grid-template-columns:1fr}.sr-facts{grid-template-columns:1fr 1fr}}

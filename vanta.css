@@ -1,0 +1,28 @@
+/* VANTA room: gothic luxury. Gold institutional + black atmosphere + restrained motion. */
+.vanta-hero{position:relative;min-height:82vh;display:flex;align-items:flex-end;overflow:hidden}
+.vanta-hero-img{position:absolute;inset:0;background:url('assets/artists/vanta_anchor.jpg') center 22%/cover no-repeat}
+.vanta-hero-img::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,7,7,.35) 0%,rgba(7,7,7,.15) 45%,rgba(7,7,7,.92) 100%)}
+.vanta-hero-inner{position:relative;padding-bottom:4rem;text-align:center;width:100%}
+.vanta-title{font-family:var(--serif-display);font-weight:500;letter-spacing:.16em;font-size:clamp(4rem,13vw,10rem);margin:.3rem 0 .4rem;color:var(--gold-soft);text-shadow:0 2px 40px rgba(0,0,0,.6)}
+.vanta-sub{font-family:var(--sans);text-transform:uppercase;letter-spacing:.34em;font-size:.85rem;color:var(--ivory);margin:0}
+.vanta-eyebrow{font-family:var(--sans);text-transform:uppercase;letter-spacing:.24em;font-size:.7rem;color:var(--gold);margin-bottom:1rem}
+.vanta-big{font-family:var(--serif-display);font-style:italic;font-size:clamp(1.8rem,4vw,2.9rem);color:var(--ivory);line-height:1.35}
+.vanta-statement{padding:5.5rem 0}
+
+/* Members: cinematic, restrained */
+.members-grid{display:grid;grid-template-columns:1fr 1fr;gap:2.5rem}
+.member-card{display:grid;grid-template-columns:200px 1fr;gap:1.8rem;align-items:start;border:1px solid var(--border);background:var(--panel);padding:1.6rem;transition:border-color var(--std)}
+.member-card:hover{border-color:rgba(201,162,75,.4)}
+.member-portrait img{width:200px;height:270px;object-fit:cover;object-position:top center;border:1px solid var(--border)}
+.member-body h3{font-size:1.7rem;margin:0 0 .2rem;display:flex;align-items:center;gap:.5rem}
+.member-emoji{font-size:1rem}
+.member-role{font-family:var(--serif-display);font-style:italic;color:var(--gold-soft);font-size:1.1rem;margin:0 0 .2rem}
+.member-disc{font-family:var(--sans);text-transform:uppercase;letter-spacing:.12em;font-size:.6rem;color:var(--gold);margin:0 0 1rem}
+.member-bio{color:var(--ivory-dim);font-size:1.02rem;line-height:1.7;margin:0}
+.vanta-platforms{font-family:var(--sans);text-transform:uppercase;letter-spacing:.1em;font-size:.72rem;color:var(--smoke);margin-top:1.5rem}
+.credits-grid{display:grid;grid-template-columns:1fr 1fr;gap:1.8rem;margin:2rem 0 1.5rem;text-align:center}
+.credits-grid span{display:block;font-family:var(--sans);text-transform:uppercase;letter-spacing:.14em;font-size:.6rem;color:var(--gold);margin-bottom:.35rem}
+.credits-grid div{font-family:var(--serif-display);font-size:1.1rem;color:var(--ivory-dim)}
+.vanta-follow{font-family:var(--sans);font-size:.78rem;letter-spacing:.06em;color:var(--smoke);margin-top:1rem}
+@media (max-width:64rem){.members-grid{grid-template-columns:1fr}}
+@media (max-width:48rem){.member-card{grid-template-columns:1fr;text-align:center}.member-portrait img{width:100%;height:auto;max-width:240px;margin:0 auto}.member-body h3{justify-content:center}.credits-grid{grid-template-columns:1fr}}
