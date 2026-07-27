@@ -1,3 +1,8 @@
+## Artist heroes elevated (press-kit -> film-poster)
+- All three artist heroes now use CLEAN, TEXT-FREE cinematic key art (not press-kit sheets): vanta_hero.jpg (gothic cathedral group), moonrealm_hero.jpg (gold eclipse duo, bottom text cropped), solana_hero.jpg (golden-hour rust, baked logo cropped out). Music roster thumbnails updated to match.
+- Hero treatment: 92vh, cinematic top+bottom vignette, poster-credit hairline under the subtitle, stronger title text-shadow. Each keeps its own accent + motion. Old *_anchor.jpg press sheets remain only for internal reference, not shown as backgrounds.
+- If founder supplies even cleaner per-artist key art later, swap the *_hero.jpg files; CSS already points at them.
+
 ## Artist parity pass
 All three artist pages now share the same section rhythm (hero, statement, world, members/song, credits) and each ends its credits with a "More from the Casa Brigante roster" link back to music.html. VANTA and MOONREALM layouts/colors/motion were NOT otherwise changed (they were founder-approved); only the universe cross-link was added for consistency with Solana.
 

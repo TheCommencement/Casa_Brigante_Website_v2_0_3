@@ -566,3 +566,17 @@ body::before{
 
 /* artist universe cross-link parity */
 .vanta-universe,.mr-universe,.sol-universe{margin-top:2rem}
+
+/* ===== Artist hero elevation: film-poster, not press-kit ===== */
+.vanta-hero,.mr-hero,.sol-hero{min-height:92vh}
+.vanta-hero-inner,.mr-hero-inner,.sol-hero-inner{padding-bottom:5.5rem}
+/* cinematic top-and-bottom vignette on every artist hero */
+.vanta-hero::before,.mr-hero::before,.sol-hero::before{content:"";position:absolute;inset:0;z-index:1;pointer-events:none;
+  background:linear-gradient(180deg,rgba(7,7,7,.55),transparent 22%,transparent 62%,rgba(7,7,7,.55) 92%,var(--onyx))}
+.vanta-hero-inner,.mr-hero-inner,.sol-hero-inner{position:relative;z-index:2}
+/* refined title presence */
+.vanta-title,.mr-title{text-shadow:0 4px 60px rgba(0,0,0,.7)}
+.sol-title{text-shadow:0 4px 50px rgba(0,0,0,.75)}
+/* a hairline rule under each hero sub, like a poster credit line */
+.vanta-sub::after,.mr-sub::after,.sol-sub::after{content:"";display:block;width:60px;height:1px;background:currentColor;opacity:.5;margin:1.4rem auto 0}
+.sol-hero-inner .sol-sub::after{margin-left:0}

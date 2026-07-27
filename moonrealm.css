@@ -1,7 +1,7 @@
 /* MOONREALM room: nocturnal ritual. Gold institutional + PURPLE atmosphere + slow drift. */
 :root{--mr-purple:#6c5ce7;--mr-lilac:#8b7fd4;--mr-deep:#0d0b18}
 .mr-hero{position:relative;min-height:86vh;display:flex;align-items:flex-end;overflow:hidden;background:var(--mr-deep)}
-.mr-hero-img{position:absolute;inset:0;background:url('assets/artists/moonrealm_anchor.jpg') center 30%/cover no-repeat}
+.mr-hero-img{position:absolute;inset:0;background:url('assets/artists/moonrealm_hero.jpg') center 30%/cover no-repeat}
 .mr-hero-img::after{content:"";position:absolute;inset:0;background:radial-gradient(ellipse at 50% 35%,rgba(108,92,231,.12),transparent 55%),linear-gradient(180deg,rgba(13,11,24,.45) 0%,rgba(13,11,24,.15) 40%,rgba(7,7,7,.94) 100%)}
 .mr-hero-inner{position:relative;padding-bottom:4rem;text-align:center;width:100%}
 .mr-title{font-family:var(--serif-display);font-weight:500;letter-spacing:.24em;font-size:clamp(3rem,11vw,8.5rem);margin:.3rem 0 .5rem;color:#e9e6f5;text-shadow:0 0 60px rgba(108,92,231,.5)}
