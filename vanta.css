@@ -1,6 +1,6 @@
 /* VANTA room: gothic luxury. Gold institutional + black atmosphere + restrained motion. */
 .vanta-hero{position:relative;min-height:82vh;display:flex;align-items:flex-end;overflow:hidden}
-.vanta-hero-img{position:absolute;inset:0;background:url('assets/artists/vanta_hero.jpg') center 25%/cover no-repeat}
+.vanta-hero-img{position:absolute;inset:0;]%/cover no-repeat}
 .vanta-hero-img::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(7,7,7,.35) 0%,rgba(7,7,7,.15) 45%,rgba(7,7,7,.92) 100%)}
 .vanta-hero-inner{position:relative;padding-bottom:4rem;text-align:center;width:100%}
 .vanta-title{font-family:var(--serif-display);font-weight:500;letter-spacing:.16em;font-size:clamp(4rem,13vw,10rem);margin:.3rem 0 .4rem;color:var(--gold-soft);text-shadow:0 2px 40px rgba(0,0,0,.6)}

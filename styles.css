@@ -595,3 +595,6 @@ body::before{
 
 /* VANTA member portraits from wide gold-hall shots — keep faces framed */
 .member-portrait img{object-position:center 20%}
+
+/* VANTA menu card: keep all four members visible (Elara was cut off right edge) */
+.roster-card img{object-position:center 30%}

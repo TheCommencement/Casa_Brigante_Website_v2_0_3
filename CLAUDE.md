@@ -1,3 +1,7 @@
+## VANTA fixes (menu card + hero)
+- MENU CARD (music.html roster): was cutting off Elara Bloom on the right. vanta_card.jpg = full-width looking-at-each-other group; roster img now uses object-position center 30% so all four fit.
+- HERO (artist-vanta.html): swapped from the looking-at-each-other shot (weird as a hero) to the FORWARD-FACING group (2e272768), with the baked "VANTA" title cropped off the top. Focal center 38%. The looking-at-each-other shot stays as the menu card only, per founder.
+
 ## VANTA finalized (bug fix + new photos)
 - BUG FIXED: vanta_hero.jpg had been overwritten with an orange/Solana image (that's why the VANTA hero and Music-roster thumb showed Solana). Replaced with the correct clean gold-hall VANTA group shot (no text). Roster thumb auto-fixed (points at vanta_hero.jpg).
 - New individual member portraits set from founder's gold-hall solo shots (Aria Vale, Juno Knox, Nyla Starr, Elara Bloom), cropped to the person, name-text excluded. Theme unchanged (gold-on-black gothic luxury), just finalized with better photos.
