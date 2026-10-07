@@ -1,6 +1,14 @@
-## VANTA fixes (menu card + hero)
-- MENU CARD (music.html roster): was cutting off Elara Bloom on the right. vanta_card.jpg = full-width looking-at-each-other group; roster img now uses object-position center 30% so all four fit.
-- HERO (artist-vanta.html): swapped from the looking-at-each-other shot (weird as a hero) to the FORWARD-FACING group (2e272768), with the baked "VANTA" title cropped off the top. Focal center 38%. The looking-at-each-other shot stays as the menu card only, per founder.
+## Books hero REBUILT: live clickable covers (founder-directed, supersedes the fanned composite)
+Founder quote: "I want the old version... where they were clickable... don't like that they're covering each other, want all shown clearly... I want all my books on the book page to look like [the MOONREALM hero]."
+- books.html hero is now a .books-hero component: the five real cover images in a clean non-overlapping row, each a clickable <a> to its book page, fully visible with gold edge + hover lift/glow. Title "The Collection" floats OVER the covers' lower portion (MOONREALM style, z-index above covers, heavy text-shadow), tagline below. Faint estate watermark + gold glow behind.
+- The old baked composite books-hero.jpg (fanned/overlapping covers) is REPLACED and no longer referenced. Covers update automatically when files change (e.g., Bury Me in Tucson's real cover).
+- Eyebrow line dropped from this hero (nav already says Books; it collided with covers). 
+- Tuning dials: .books-hero-text margin-top (overlap amount), .books-hero-covers img height clamp (cover size). 
+- DEPARTMENT HERO NOTE UPDATE: the .dept-hero (single full-bleed image) stays the pattern for image-led departments (artists). Books uses the covers-row variant. Apply whichever fits per department.
+
+## VANTA re-finalized (hero + menu card), reapplied cleanly
+- vanta_hero.jpg = FORWARD-FACING group (source 2e272768, top cropped to remove baked VANTA title). Focal center 32%. The "looking at each other" shot is NOT the hero (founder: weird as a hero).
+- vanta_card.jpg (Music roster thumb) = full group (0edeb8da) PADDED to the card ratio so all four members show; Elara was being cut off before. .roster-card img object-position centered.
 
 ## VANTA finalized (bug fix + new photos)
 - BUG FIXED: vanta_hero.jpg had been overwritten with an orange/Solana image (that's why the VANTA hero and Music-roster thumb showed Solana). Replaced with the correct clean gold-hall VANTA group shot (no text). Roster thumb auto-fixed (points at vanta_hero.jpg).

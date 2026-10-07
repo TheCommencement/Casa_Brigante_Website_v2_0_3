@@ -596,5 +596,25 @@ body::before{
 /* VANTA member portraits from wide gold-hall shots — keep faces framed */
 .member-portrait img{object-position:center 20%}
 
-/* VANTA menu card: keep all four members visible (Elara was cut off right edge) */
-.roster-card img{object-position:center 30%}
+/* ===== Books hero: live clickable covers, title floating over (MOONREALM style) ===== */
+.books-hero{position:relative;min-height:84vh;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden;background:var(--onyx);padding:5.5rem 0 4rem}
+.books-hero-bg{position:absolute;inset:0;pointer-events:none;background:radial-gradient(ellipse 58% 48% at 50% 44%,rgba(201,162,75,.12),transparent 70%),url('assets/brand/CB_Watermark_Site_v1.png') center 42%/min(860px,90vw) no-repeat}
+.books-hero-bg::after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,var(--onyx),transparent 18%,transparent 70%,var(--onyx))}
+.books-hero-covers{position:relative;z-index:1;display:flex;gap:clamp(.5rem,1.5vw,1.5rem);align-items:center;justify-content:center;width:100%;max-width:1340px;padding:0 1.25rem;flex-wrap:nowrap}
+.books-hero-covers a{line-height:0;flex:0 1 auto;transition:transform var(--std)}
+.books-hero-covers img{display:block;height:clamp(150px,44vh,400px);width:auto;aspect-ratio:2/3;object-fit:cover;border:1px solid var(--gold-deep);box-shadow:0 26px 60px rgba(0,0,0,.6);transition:transform var(--std),box-shadow var(--std),border-color var(--std)}
+.books-hero-covers a:hover{transform:translateY(-12px)}
+.books-hero-covers a:hover img{border-color:var(--gold);box-shadow:0 34px 74px rgba(0,0,0,.72),0 0 32px rgba(201,162,75,.28)}
+.books-hero-text{position:relative;z-index:2;text-align:center;margin-top:-4rem;pointer-events:none}
+.books-hero-text .dept-eyebrow{margin-bottom:.6rem}
+.books-hero-text .dept-title{text-shadow:0 6px 40px rgba(0,0,0,.92),0 2px 14px rgba(0,0,0,.95);margin:0 0 .5rem}
+.books-hero-text .dept-sub::after{margin-left:auto;margin-right:auto}
+@media (max-width:48rem){
+  .books-hero{min-height:74vh;padding-top:4rem}
+  .books-hero-covers{gap:.35rem}
+  .books-hero-covers img{height:clamp(96px,22vh,150px)}
+  .books-hero-text{margin-top:-1.2rem}
+}
+
+/* ===== VANTA menu card: show all four members (padded card image) ===== */
+.roster-card img{object-position:center center}
