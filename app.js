@@ -33,21 +33,3 @@ if (!reduced && 'IntersectionObserver' in window) {
   document.querySelectorAll('.reveal').forEach(el => el.classList.add('is-visible'));
 }
 
-document.querySelector('.newsletter-form')?.addEventListener('submit', event => {
-  event.preventDefault();
-});
-
-// Correspondence confirmation, in the voice of the house.
-const form = document.querySelector('.newsletter-form');
-if (form) {
-  const confirmLine = form.querySelector('.form-confirm');
-  form.addEventListener('submit', () => {
-    const email = form.querySelector('#email');
-    if (email && email.value.includes('@')) {
-      confirmLine.textContent = 'Received. We write rarely, and only with news.';
-      email.value = '';
-    } else {
-      confirmLine.textContent = 'That address did not go through. Try once more.';
-    }
-  });
-}
