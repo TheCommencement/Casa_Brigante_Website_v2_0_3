@@ -1,3 +1,14 @@
+## HAWS V1 refinement — intentionally dormant brand-holding page (founder-approved, scoped)
+Per founder: HAWS is a brand-holding/editorial page, not a storefront; should feel intentionally dormant, not unfinished.
+CHANGES (haws.html + scoped .haws-* CSS in styles.css, tokens only):
+- PRESERVED: hero "Strength. Brotherhood. Ascension." + lede; HAWS_Logo_Primary_v1.png; full design system.
+- REMOVED: the four empty product-style division cards; the "Visit the counter" eBay CTA (no HAWS products at that destination) and the "Selected pieces pass through the counter" line.
+- ADDED: restrained editorial presentation of the FUTURE categories — eyebrow "The disciplines of HAWS" + one line "Apparel · Headwear · Footwear · Collections" (display serif, gold middle-dots bound to each word so none leads a wrapped line) + a short gold hairline. No products, dates, collections, pricing, or availability invented; no "coming soon"/"forthcoming" wording (respects the discretion rule).
+- Category wording per founder: Headwear (was Hats), Footwear (was Shoes).
+- Verified desktop (one line) + mobile (two balanced lines); no horizontal overflow at 320/390/768/1440; no console errors.
+- HAWS now has ZERO CTAs by design (dormant page).
+OPEN / FLAGGED (not changed, per founder): "Horns Ascendent War Society" alt text spells Ascendent with an E vs the house standard "Ascendant" — owner decision pending. Canonical HAWS hero image remains an identified asset gap; its absence no longer makes the page look unfinished.
+
 ## Mobile Books hero overflow FIXED (founder-approved, scoped fix only)
 Problem: the live-covers Books hero overflowed on phones (5th cover, Bury Me in Tucson, pushed off the right edge) because covers were fixed-height and could not shrink below content width.
 Fix (styles.css, @media max-width:48rem ONLY): covers now share the row width (.books-hero-covers a{flex:1 1 0;min-width:0}; img{width:100%;height:auto;aspect-ratio:2/3;max-height:52vh}); added side padding; min-height 74->70vh; text margin -1.2->-1.4rem.

@@ -619,3 +619,17 @@ body::before{
 
 /* ===== VANTA menu card: show all four members (padded card image) ===== */
 .roster-card img{object-position:center center}
+
+/* ===== HAWS V1: intentionally dormant brand-holding presentation ===== */
+.haws-holding{max-width:46rem;margin-inline:auto;text-align:center}
+.haws-mark{height:200px;width:auto;display:block;margin:0 auto 2.8rem}
+.haws-disciplines-label{margin-bottom:1.2rem}
+.haws-disciplines{font-family:var(--serif-display);font-size:clamp(1.4rem,2.6vw,2rem);line-height:1.35;color:var(--ivory);letter-spacing:.03em;margin:0 auto;max-width:54rem}
+.haws-disciplines span{white-space:nowrap;margin:0 .25rem}
+.haws-disciplines b{font-weight:inherit;color:var(--gold-deep);margin-left:.5rem}
+.haws-rule{width:72px;height:1px;background:var(--gold-deep);margin:2.6rem auto 0}
+@media (max-width:48rem){
+  .haws-mark{height:150px;margin-bottom:2rem}
+  .haws-disciplines{font-size:clamp(1.3rem,6vw,1.9rem)}
+  .haws-disciplines span{display:inline-block;margin:0 .35rem}
+}
