@@ -1,3 +1,12 @@
+## Audio Dramas V1 refinement — one-line closing swap (founder-approved, single surgical change)
+Per founder: this page keeps its OWN identity (the Ascendant Soundworks production-philosophy section), does NOT mirror HAWS/Vault structure, gets no disciplines row and no CTAs.
+PRESERVED EXACTLY (founder-listed): hero "Written for the ear, performed in the dark." + lede "Serialized fiction produced as sound, under the Ascendant Soundworks banner."; the ASW logo (ASW_Logo_Primary_v2.png); "The practice"; "Precision in every frequency."; the entire first production-philosophy paragraph; page structure + design system.
+CHANGE (audio-dramas.html, ONE paragraph only, no CSS touched):
+- Final paragraph "The first productions arrive when they are ready. Episodes, trailers, and production notes will live here." -> "The first productions arrive when they are ready. Until then, the standard comes before the schedule."
+- Reason: old line read as an unfinished container-waiting-to-be-filled placeholder ("will live here"); new line keeps the honest not-yet-available signal but states it as an intentional standard-over-schedule stance. Renders in the existing display-italic :last-child treatment. No "coming soon", no dates, no titles/episodes/characters/platforms/trailers, no availability, no AI/visual-accompaniment mention.
+- Verified: no horizontal overflow at 320/390/768/1440; zero CTAs in main (by design); no page/console errors. No other page touched.
+OPEN / FLAGGED: no canonical Ascendant Soundworks / Audio Dramas hero or key-art image exists — recorded as a future asset OPPORTUNITY, not a V1 requirement (page reads intentional without it).
+
 ## Vault 12 V1 refinement — established collector operation, quiet between releases (founder-approved, scoped)
 Per founder: Vault 12 is NOT hypothetical. It is an established Casa Brigantè commerce operation that has previously sold footwear and headwear; it simply has no confirmed inventory available right now. The page must read as an established collector operation BETWEEN RELEASES — not a brand that never launched, and not a storefront pretending inventory exists.
 CHANGES (vault-12.html + scoped .vault-* CSS in styles.css, tokens only):
