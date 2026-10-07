@@ -610,10 +610,11 @@ body::before{
 .books-hero-text .dept-title{text-shadow:0 6px 40px rgba(0,0,0,.92),0 2px 14px rgba(0,0,0,.95);margin:0 0 .5rem}
 .books-hero-text .dept-sub::after{margin-left:auto;margin-right:auto}
 @media (max-width:48rem){
-  .books-hero{min-height:74vh;padding-top:4rem}
-  .books-hero-covers{gap:.35rem}
-  .books-hero-covers img{height:clamp(96px,22vh,150px)}
-  .books-hero-text{margin-top:-1.2rem}
+  .books-hero{min-height:70vh;padding-top:4rem}
+  .books-hero-covers{gap:.4rem;padding:0 1rem}
+  .books-hero-covers a{flex:1 1 0;min-width:0}
+  .books-hero-covers img{width:100%;height:auto;aspect-ratio:2/3;max-height:52vh}
+  .books-hero-text{margin-top:-1.4rem}
 }
 
 /* ===== VANTA menu card: show all four members (padded card image) ===== */

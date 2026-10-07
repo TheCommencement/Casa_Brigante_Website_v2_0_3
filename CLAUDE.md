@@ -1,3 +1,10 @@
+## Mobile Books hero overflow FIXED (founder-approved, scoped fix only)
+Problem: the live-covers Books hero overflowed on phones (5th cover, Bury Me in Tucson, pushed off the right edge) because covers were fixed-height and could not shrink below content width.
+Fix (styles.css, @media max-width:48rem ONLY): covers now share the row width (.books-hero-covers a{flex:1 1 0;min-width:0}; img{width:100%;height:auto;aspect-ratio:2/3;max-height:52vh}); added side padding; min-height 74->70vh; text margin -1.2->-1.4rem.
+Desktop (>48rem) UNCHANGED and verified (covers still height-driven, 396px at 1440, no overflow).
+Verified no horizontal overflow and all 5 covers fully visible + clickable at 320/360/375/390/414/430/768px.
+books.html was NOT changed (covers were already clickable <a> links).
+
 ## Books hero REBUILT: live clickable covers (founder-directed, supersedes the fanned composite)
 Founder quote: "I want the old version... where they were clickable... don't like that they're covering each other, want all shown clearly... I want all my books on the book page to look like [the MOONREALM hero]."
 - books.html hero is now a .books-hero component: the five real cover images in a clean non-overlapping row, each a clickable <a> to its book page, fully visible with gold edge + hover lift/glow. Title "The Collection" floats OVER the covers' lower portion (MOONREALM style, z-index above covers, heavy text-shadow), tagline below. Faint estate watermark + gold glow behind.
