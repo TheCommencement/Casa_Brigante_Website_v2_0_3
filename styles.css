@@ -633,3 +633,18 @@ body::before{
   .haws-disciplines{font-size:clamp(1.3rem,6vw,1.9rem)}
   .haws-disciplines span{display:inline-block;margin:0 .35rem}
 }
+
+/* ===== Vault 12 V1: established collector operation, quiet between releases ===== */
+.vault-holding{max-width:48rem;margin-inline:auto;text-align:center}
+.vault-disc-label{margin-bottom:1.2rem}
+.vault-disciplines{font-family:var(--serif-display);font-size:clamp(1.4rem,2.6vw,2rem);line-height:1.35;color:var(--ivory);letter-spacing:.03em;margin:0 auto;max-width:54rem}
+.vault-disciplines span{white-space:nowrap;margin:0 .25rem}
+.vault-disciplines b{font-weight:inherit;color:var(--gold-deep);margin-left:.5rem}
+.vault-statement{font-family:var(--serif-display);font-style:italic;font-size:clamp(1.5rem,3vw,2.2rem);line-height:1.4;color:var(--ivory);max-width:34rem;margin:3.2rem auto 0}
+.vault-status{font-family:var(--sans);text-transform:uppercase;letter-spacing:.18em;font-size:.72rem;color:var(--smoke);margin:1.6rem auto 0}
+.vault-rule{width:72px;height:1px;background:var(--gold-deep);margin:2.6rem auto 0}
+@media (max-width:48rem){
+  .vault-disciplines{font-size:clamp(1.3rem,6vw,1.9rem)}
+  .vault-disciplines span{display:inline-block;margin:0 .35rem}
+  .vault-statement{font-size:clamp(1.3rem,5.5vw,1.7rem)}
+}

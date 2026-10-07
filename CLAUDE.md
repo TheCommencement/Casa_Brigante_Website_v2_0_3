@@ -1,3 +1,14 @@
+## Vault 12 V1 refinement — established collector operation, quiet between releases (founder-approved, scoped)
+Per founder: Vault 12 is NOT hypothetical. It is an established Casa Brigantè commerce operation that has previously sold footwear and headwear; it simply has no confirmed inventory available right now. The page must read as an established collector operation BETWEEN RELEASES — not a brand that never launched, and not a storefront pretending inventory exists.
+CHANGES (vault-12.html + scoped .vault-* CSS in styles.css, tokens only):
+- PRESERVED: hero eyebrow "Vault 12", h1 "The collector's room.", the scarcity/collector philosophy, and "What enters the vault is finite. What leaves it is gone." (elevated to .vault-statement); full design system.
+- HERO LEDE brand-neutralized: "Jordan customs, New Era fitteds, and numbered pieces that do not restock." -> "Custom footwear, curated headwear, and numbered pieces that do not restock."
+- REMOVED: the three empty product-style division cards (incl. "Jordan customs"/"New Era fitteds" institutional refs); the "Available pieces pass through the counter." line; the "Visit the counter" eBay CTA (no confirmed Vault 12 inventory at that destination right now).
+- ADDED: restrained editorial block mirroring the HAWS dormant pattern — eyebrow "The disciplines of Vault 12" + one line "Custom footwear · Curated headwear · Numbered pieces" (display serif, gold middle-dots bound to each word so none leads a wrapped line); the preserved statement in display italic; a quiet status line "The vault is quiet between releases." (signals established + currently-dormant WITHOUT "coming soon", dates, or invented availability); short gold hairline.
+- Brand-neutral wording per founder: "custom footwear" (was Jordan customs), "curated headwear" (was New Era fitteds). No products, inventory, pricing, release/restock dates, or availability invented; no "coming soon".
+- Verified desktop + mobile: no horizontal overflow at 320/390/768/1440; disciplines render (opacity 1 via reduced-motion); zero CTAs by design; no page/console errors (only external Google Fonts blocked by sandbox, same as every page).
+OPEN / FLAGGED (not changed, per founder): Vault 12 has NO canonical visual identity / hero asset and NO Vault 12 logo — recorded as a future asset gap; its absence does not block V1 and no generic imagery/logo was invented.
+
 ## HAWS V1 refinement — intentionally dormant brand-holding page (founder-approved, scoped)
 Per founder: HAWS is a brand-holding/editorial page, not a storefront; should feel intentionally dormant, not unfinished.
 CHANGES (haws.html + scoped .haws-* CSS in styles.css, tokens only):
